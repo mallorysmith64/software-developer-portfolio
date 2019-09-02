@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+// import HelloWorld from './components/HelloWorld'
+import Nav from './components/Nav.jsx'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <Nav />
   }
 }
 

@@ -10,3 +10,12 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+ul {
+  list-style: none;
+}
+
+.main-menu-right {
+  display: flex;
+  justify-content: flex-end;
+}
