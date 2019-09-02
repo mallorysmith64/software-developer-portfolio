@@ -5,6 +5,9 @@ class Nav extends Component {
     return (
       <>
         <nav>
+          <ul>
+            <li>Something here</li>
+          </ul>
           <ul className="main-menu-right">
             <li>
               <a href="#">Home</a>
