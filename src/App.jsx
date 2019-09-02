@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Nav from './components/Nav.jsx'
-import Projects from './components/Projects.jsx'
+import MyWork from './components/MyWork.jsx'
 
 class App extends Component {
   render() {
     return (
       <>
         <Nav />
-        <Projects />
+        <MyWork />
       </>
     )
   }
