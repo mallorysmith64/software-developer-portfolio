@@ -10,16 +10,16 @@ class Nav extends Component {
           </ul>
           <ul className="main-menu-right">
             <li>
-              <a href="#">Home</a>
+              <a href="/#">Home</a>
             </li>
             <li>
-              <a href="#">Work</a>
+              <a href="/#">Work</a>
             </li>
             <li>
-              <a href="#">Resume</a>
+              <a href="/#">Resume</a>
             </li>
             <li>
-              <a href="#">Connect</a>
+              <a href="/#">Connect</a>
             </li>
           </ul>
         </nav>
