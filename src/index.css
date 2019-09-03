@@ -20,9 +20,24 @@ ul {
   justify-content: flex-end;
 }
 
-.space-x {
-  font-size: 2em;
+.project-header {
+  text-align: center;
+  color: rgb(233, 13, 141);
 }
+
+.photo-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: rgba(247, 247, 249, 0.411);
+  padding: 2em;
+}
+
+/* .space-x {
+  font-size: 2em;
+} */
 
 .contact-header {
   display: flex;
