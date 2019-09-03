@@ -3,6 +3,7 @@ import Nav from './components/Nav.jsx'
 import MyWork from './components/MyWork.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <MyWork />
         <About />
         <Contact />
+        <Footer />
       </>
     )
   }

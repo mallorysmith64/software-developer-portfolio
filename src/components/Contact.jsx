@@ -4,6 +4,9 @@ class Contact extends Component {
   render() {
     return (
       <>
+        <section className="contact-header">
+          <h5>Contact Me</h5>
+        </section>
         <section className="form">
           <div class="row">
             <form class="col s12">

@@ -24,8 +24,36 @@ ul {
   font-size: 2em;
 }
 
-.form {
+.contact-header {
   display: flex;
   justify-content: center;
+}
+
+.form {
+  display: flex;
   padding: 2em;
+}
+
+.page-footer {
+  padding: 0.1em;
+  height: 8em;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.footer-link-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.github,
+.linkedin,
+.codewars {
+  position: relative;
+  bottom: 3.2em;
+  padding: 0.2em;
 }
