@@ -23,3 +23,9 @@ ul {
 .space-x {
   font-size: 2em;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
