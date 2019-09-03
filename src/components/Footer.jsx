@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CodeWars from './images/codewars_icon.jpeg'
 
 class Footer extends Component {
   render() {
@@ -10,11 +11,27 @@ class Footer extends Component {
           </section>
           <section>
             <ul className="footer-link-container">
-              <i className="fab fa-github"></i>
-              {/* <li className="github">GitHub</li> */}
-              <i class="fab fa-linkedin"></i>
-              {/* <li className="linkedin">LinkedIn</li> */}
-              <li className="codewars">CodeWars</li>
+              <li>
+                <a href="https://github.com/mallorysmith64?tab=repositories">
+                  <i className="fab fa-github fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/mallorysmith-42/">
+                  <i className="fab fa-linkedin fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.codewars.com/dashboard">
+                  <img
+                    className="codewars"
+                    src={CodeWars}
+                    alt="codewars site icon"
+                    height="42"
+                    width="42"
+                  />
+                </a>
+              </li>
             </ul>
           </section>
         </footer>

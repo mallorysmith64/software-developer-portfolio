@@ -63,12 +63,13 @@ ul {
 .footer-link-container {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
 }
 
 .fa-github,
 .fa-linkedin,
 .codewars {
   position: relative;
-  bottom: 3.2em;
   padding: 0.2em;
+  padding-right: 0.4em;
 }
