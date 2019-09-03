@@ -12,7 +12,7 @@ class MyWork extends Component {
         <section className="project-header">
           <h2>My Work</h2>
         </section>
-        <main className="photo-container">
+        <main className="photo-container-1">
           {/* <section className="space-x-container">
             <h1 className="space-x">SpaceX Project</h1>
             <img src={SpaceX} alt="space-x project overview" />
@@ -41,14 +41,36 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          {/* <section>
+        </main>
+        <main className="photo-container-1">
+          {/* <section className="space-x-container">
+            <h1 className="space-x">SpaceX Project</h1>
+            <img src={SpaceX} alt="space-x project overview" />
+          </section> */}
+          <section>
             <img
               src={Weather}
               alt="weather project overview"
-              height="500"
-              width="400"
+              height="400"
+              width="300"
             />
-          </section> */}
+          </section>
+          <section>
+            <img
+              src={Minesweeper}
+              alt="minesweeper project overview"
+              height="400"
+              width="300"
+            />
+          </section>
+          <section>
+            <img
+              src={TV}
+              alt="TV guide project overview"
+              height="400"
+              width="300"
+            />
+          </section>
         </main>
       </>
     )

@@ -13,7 +13,9 @@ class Nav extends Component {
               <a href="/#">Home</a>
             </li>
             <li>
-              <a href="/#">Work</a>
+              <a href="https://github.com/mallorysmith64?tab=repositories">
+                Work
+              </a>
             </li>
             <li>
               <a href="/#">Resume</a>

@@ -22,10 +22,10 @@ ul {
 
 .project-header {
   text-align: center;
-  color: rgb(233, 13, 141);
+  color: rgb(238, 110, 114);
 }
 
-.photo-container {
+.photo-container-1 {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
