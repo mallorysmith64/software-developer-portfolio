@@ -10,8 +10,10 @@ class Footer extends Component {
           </section>
           <section>
             <ul className="footer-link-container">
-              <li className="github">GitHub</li>
-              <li className="linkedin">LinkedIn</li>
+              <i className="fab fa-github"></i>
+              {/* <li className="github">GitHub</li> */}
+              <i class="fab fa-linkedin"></i>
+              {/* <li className="linkedin">LinkedIn</li> */}
               <li className="codewars">CodeWars</li>
             </ul>
           </section>

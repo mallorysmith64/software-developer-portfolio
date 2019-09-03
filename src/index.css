@@ -50,8 +50,8 @@ ul {
   justify-content: flex-end;
 }
 
-.github,
-.linkedin,
+.fa-github,
+.fa-linkedin,
 .codewars {
   position: relative;
   bottom: 3.2em;
