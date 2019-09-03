@@ -4,28 +4,28 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <section className="about-container">
-          <header className="about">
-            <h5>Who I Am</h5>
-          </header>
-          <p>
-            When I am not coding, I am studying biology or practicing doing
-            yoga.
-          </p>
-          <h5>What Motivates Me</h5>
-          <p>
-            What motivates me the most is the satisfaction that comes with
-            problem solving and creating my own projects.
-          </p>
-          <h5>Where I Want To Go</h5>
-          <p>
-            5 years from now I would like to be able to combine some of my
-            biology knowledge with my coding skills.
-          </p>
-        </section>
-        <section>
-          <a className="waves-effect waves-light btn">View Resume</a>
-        </section>
+        {/* <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form> */}
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  placeholder="Placeholder"
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                />
+                <label for="first_name">First Name</label>
+              </div>
+            </div>
+          </form>
+        </div>
       </>
     )
   }
