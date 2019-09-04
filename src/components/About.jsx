@@ -7,6 +7,7 @@ class About extends Component {
       <>
         <section className="about-me">
           <img
+            className="img-style"
             src={ProfilePic}
             alt="Mallory Smith's profile picture"
             height="200"

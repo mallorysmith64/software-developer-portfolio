@@ -1,9 +1,10 @@
 :root {
   font: 16px / 1 sans-serif;
-  --off-white: rgba(255, 255, 255, 0.753);
-  --main-color: rgb(73, 197, 182);
-  --metallic-seaweed: #028090;
-  --blue: #029095;
+  --main-color: #a4243b;
+  --main-color-two: #ebf0ea;
+  --lighter-color: #f0f7ee;
+  --darker-color: #363946;
+  --white: rgba(255, 255, 255, 0.726);
 }
 
 html {
@@ -17,7 +18,7 @@ body {
 
 .nav {
   background-color: var(--main-color);
-  color: var(--off-white);
+  color: var(--lighter-color);
 }
 
 ul {
@@ -32,9 +33,9 @@ ul {
 .project-header {
   font-family: 'Milonga', cursive;
   text-align: center;
-  /* color: var(--caribbean-green); */
-  color: var(--off-white);
-  background-color: var(--metallic-seaweed);
+  color: var(--darker-color);
+  /* background-color: #cad2c5; */
+  background-color: var(--main-color-two);
   padding: 1em;
 }
 
@@ -44,7 +45,8 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  background-color: var(--metallic-seaweed);
+  /* background-color: #cad2c5; */
+  background-color: var(--main-color-two);
   padding: 2em;
 }
 
@@ -54,29 +56,33 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  background-color: var(--blue);
+  background-color: rgb(99, 79, 79);
   padding: 2em;
-  color: rgba(0, 0, 0, 0.753);
+  color: rgb(233, 223, 223);
+}
+
+.img-style {
+  border: 2px black solid;
 }
 
 .contact-header {
   display: flex;
   justify-content: center;
-  background-color: var(--metallic-seaweed);
-  color: var(--caribbean-green);
+  background-color: var(--main-color-two);
+  color: var(--darker-color);
 }
 
 .form {
   display: flex;
   padding: 2em;
-  background-color: var(--metallic-seaweed);
+  background-color: var(--main-color-two);
 }
 
 .page-footer {
   padding: 0.1em;
   height: 8em;
-  background-color: var(--main-color);
-  color: var(--off-white);
+  background-color: var(--darker-color);
+  color: var(--lighter-color);
 }
 
 .copyright {

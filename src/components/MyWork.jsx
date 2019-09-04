@@ -25,7 +25,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <section>
+          <section className="img-style">
             <img
               src={Minesweeper}
               alt="minesweeper project overview"
@@ -33,7 +33,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <section>
+          <section className="img-style">
             <img
               src={TV}
               alt="TV guide project overview"
@@ -47,7 +47,7 @@ class MyWork extends Component {
             <h1 className="space-x">SpaceX Project</h1>
             <img src={SpaceX} alt="space-x project overview" />
           </section> */}
-          <section>
+          <section className="img-style">
             <img
               src={Weather}
               alt="weather project overview"
@@ -55,7 +55,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <section>
+          <section className="img-style">
             <img
               src={Minesweeper}
               alt="minesweeper project overview"
@@ -63,7 +63,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <section>
+          <section className="img-style">
             <img
               src={TV}
               alt="TV guide project overview"
