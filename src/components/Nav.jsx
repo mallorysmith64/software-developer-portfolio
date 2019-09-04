@@ -4,24 +4,33 @@ class Nav extends Component {
   render() {
     return (
       <>
-        <nav>
+        <nav className="nav">
           <ul>
-            <li>Something here</li>
+            <li>Hamburger menu here</li>
           </ul>
           <ul className="main-menu-right">
             <li>
-              <a href="/#">Home</a>
+              <a className="nav" href="/#">
+                Home
+              </a>
             </li>
             <li>
-              <a href="https://github.com/mallorysmith64?tab=repositories">
+              <a
+                className="nav"
+                href="https://github.com/mallorysmith64?tab=repositories"
+              >
                 Work
               </a>
             </li>
             <li>
-              <a href="/#">Resume</a>
+              <a className="nav" href="/#">
+                Resume
+              </a>
             </li>
             <li>
-              <a href="/#">Connect</a>
+              <a className="nav" href="/#">
+                Connect
+              </a>
             </li>
           </ul>
         </nav>
