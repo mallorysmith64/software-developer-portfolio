@@ -13,7 +13,7 @@ class Contact extends Component {
               <div class="row">
                 <div class="input-field col s6">
                   <input
-                    placeholder="Placeholder"
+                    placeholder="first name"
                     id="first_name"
                     type="text"
                     class="validate"
@@ -22,7 +22,7 @@ class Contact extends Component {
                 </div>
                 <div class="input-field col s6">
                   <input
-                    placeholder="placeholder"
+                    placeholder="last name"
                     id="last_name"
                     type="text"
                     class="validate"
@@ -31,7 +31,7 @@ class Contact extends Component {
                 </div>
                 <div class="input-field col s12">
                   <input
-                    placeholder="placeholder"
+                    placeholder="secure password"
                     id="password"
                     type="password"
                     class="validate"
@@ -40,7 +40,7 @@ class Contact extends Component {
                 </div>
                 <div class="input-field col s12">
                   <input
-                    placeholder="placeholder"
+                    placeholder="work email address"
                     id="email"
                     type="email"
                     class="validate"

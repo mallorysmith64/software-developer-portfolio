@@ -23,9 +23,20 @@ ul {
 .project-header {
   text-align: center;
   color: rgb(238, 110, 114);
+  padding-top: 2em;
 }
 
-.photo-container-1 {
+.photo-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: rgba(162, 162, 173, 0.411);
+  padding: 2em;
+}
+
+.profile-pic {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -34,10 +45,6 @@ ul {
   background-color: rgba(247, 247, 249, 0.411);
   padding: 2em;
 }
-
-/* .space-x {
-  font-size: 2em;
-} */
 
 .contact-header {
   display: flex;
