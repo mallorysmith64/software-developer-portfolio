@@ -7,10 +7,13 @@ class Contact extends Component {
         <section className="contact-header">
           <h5>Contact Me</h5>
         </section>
+
         <section className="form">
           <div class="row">
             <form class="col s12">
               <div class="row">
+                <div class="row">
+
                 <div class="input-field col s6">
                   <input
                     placeholder="first name"
@@ -20,6 +23,7 @@ class Contact extends Component {
                   />
                   <label for="first_name">First Name</label>
                 </div>
+
                 <div class="input-field col s6">
                   <input
                     placeholder="last name"
@@ -29,15 +33,7 @@ class Contact extends Component {
                   />
                   <label for="last_name">Last Name</label>
                 </div>
-                <div class="input-field col s12">
-                  <input
-                    placeholder="secure password"
-                    id="password"
-                    type="password"
-                    class="validate"
-                  />
-                  <label for="password">Password</label>
-                </div>
+                
                 <div class="input-field col s12">
                   <input
                     placeholder="work email address"
@@ -52,6 +48,15 @@ class Contact extends Component {
                     data-success="right"
                   ></span>
                 </div>
+  
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea" spellcheck="true"></textarea>
+                      <label for="textarea1">Send Message</label>
+                  </div>
+                </div>
+                    
+              <button class="btn waves-effect waves-light" type="submit" name="action">Send Message</button>
+
               </div>
             </form>
           </div>

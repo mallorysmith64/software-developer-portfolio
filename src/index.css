@@ -34,7 +34,6 @@ ul {
   font-family: 'Milonga', cursive;
   text-align: center;
   color: var(--darker-color);
-  /* background-color: #cad2c5; */
   background-color: var(--main-color);
   padding: 1em;
 }
@@ -45,7 +44,6 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  /* background-color: #cad2c5; */
   background-color: var(--main-color);
   padding: 2em;
 }
