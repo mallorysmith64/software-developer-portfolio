@@ -12,11 +12,8 @@ class MyWork extends Component {
         <section className="project-header">
           <h4>Projects</h4>
         </section>
+        
         <main className="photo-container">
-          {/* <section className="space-x-container">
-            <h1 className="space-x">SpaceX Project</h1>
-            <img src={SpaceX} alt="space-x project overview" />
-          </section> */}
           <section className="img-style">
             <img
               src={Octodex}
@@ -33,6 +30,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+
           <section className="img-style">
             <img
               src={TV}
@@ -43,10 +41,7 @@ class MyWork extends Component {
           </section>
         </main>
         <main className="photo-container">
-          {/* <section className="space-x-container">
-            <h1 className="space-x">SpaceX Project</h1>
-            <img src={SpaceX} alt="space-x project overview" />
-          </section> */}
+
           <section className="img-style">
             <img
               src={Weather}
@@ -55,6 +50,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+
           <section className="img-style">
             <img
               src={Minesweeper}
@@ -63,6 +59,7 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+
           <section className="img-style">
             <img
               src={TV}
