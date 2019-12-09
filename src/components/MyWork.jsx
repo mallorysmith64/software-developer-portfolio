@@ -10,7 +10,7 @@ class MyWork extends Component {
     return (
       <>
         <section className="project-header">
-          <h4>My Work</h4>
+          <h4>Projects</h4>
         </section>
         <main className="photo-container">
           {/* <section className="space-x-container">

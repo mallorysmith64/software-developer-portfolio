@@ -8,16 +8,11 @@ class Nav extends Component {
          
           <ul className="main-menu-right">
             <li>
-              <a className="nav" href="/#">
-                Home
-              </a>
-            </li>
-            <li>
               <a
                 className="nav"
                 href="https://github.com/mallorysmith64?tab=repositories"
               >
-                Work
+                Projects
               </a>
             </li>
             <li>
