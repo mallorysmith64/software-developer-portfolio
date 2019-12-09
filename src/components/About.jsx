@@ -31,11 +31,11 @@ class About extends Component {
               5 years from now I would like to be able to combine some of my
               biology knowledge with my coding skills.
             </p>
+
             <section>
-              <a href="/#" className="waves-effect waves-light btn">
-                View Resume
-              </a>
+              <a href='./resume/MalloryASmith_Resume.pdf' className="waves-effect waves-light btn" download>Download Resume</a>
             </section>
+
           </section>
         </section>
       </>
