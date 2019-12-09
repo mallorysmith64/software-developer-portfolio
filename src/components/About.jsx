@@ -9,7 +9,7 @@ class About extends Component {
           <img
             className="img-style"
             src={ProfilePic}
-            alt="Mallory Smith's profile picture"
+            alt="Mallory Smith's profile"
             height="200"
             width="200"
           />
