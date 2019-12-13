@@ -18,6 +18,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "prettier": "^1.19.1",
     "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0"
   },

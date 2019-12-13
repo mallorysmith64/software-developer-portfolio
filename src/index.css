@@ -48,6 +48,33 @@ ul {
   padding: 2em;
 }
 
+.skill-header, .skill-container {
+  display:flex;
+  background-color: rgb(121, 175, 121);
+}
+
+.skill-header {
+  justify-content: center;
+  font-family: 'Milonga', cursive;
+  color:var(--darker-color);
+}
+
+.frontend-column {
+  padding-left:4em;
+}
+
+.backend-column {
+ padding-left:20em;
+}
+
+.aws-column {
+ padding-left:20em;
+}
+
+.other-skills-column {
+ padding-left:20em;
+}
+
 .about-me {
   display: flex;
   justify-content: space-evenly;
