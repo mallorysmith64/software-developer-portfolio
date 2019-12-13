@@ -5,10 +5,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "react-scripts build",
-    "deploy": "echo 'To setup deployment run: yarn setup-deploy'",
+    "deploy": "netlify deploy --prod --dir=build",
     "setup-deploy": "app-app --deploy && yarn deploy",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postdeploy": "echo 'Your site was deployed to https://my-portfolio-mallory64.netlify.com'"
   },
   "browserslist": [
     ">0.2%",
@@ -22,8 +23,10 @@
   },
   "dependencies": {
     "json": "^9.0.6",
+    "netlify-cli": "^2.24.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.1.1"
-  }
+  },
+  "homepage": "https://my-portfolio-mallory64.netlify.com"
 }
