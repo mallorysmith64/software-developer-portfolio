@@ -72,7 +72,7 @@ ul {
 }
 
 .other-skills-column {
- padding-left:20em;
+ padding-left:10em;
 }
 
 .about-me {
@@ -118,12 +118,12 @@ ul {
 
 .footer-link-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: 0;
 }
 
-.fa-github,
-.fa-linkedin,
+.linkedin,
+.github,
 .codewars {
   position: relative;
   padding: 0.2em;
