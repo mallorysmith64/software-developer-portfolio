@@ -4,6 +4,7 @@
   --main-color: #ebf0ea;
   --lighter-color: #f0f7ee;
   --darker-color: #363946;
+  --brown:rgb(99, 79, 79);
   --white: rgba(255, 255, 255, 0.726);
 }
 
@@ -33,9 +34,11 @@ ul {
 .project-header {
   font-family: 'Milonga', cursive;
   text-align: center;
-  color: var(--darker-color);
-  background-color: var(--main-color);
   padding: 1em;
+}
+
+.project-header, .photo-container {
+  background-color: #5C7E58;
 }
 
 .photo-container {
@@ -44,35 +47,22 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  background-color: var(--main-color);
   padding: 2em;
 }
 
-.skill-header, .skill-container {
+.skill-container {
   display:flex;
-  background-color: rgb(121, 175, 121);
+  background-color: #7B9169;
+  padding:2em;
+  padding-left:2em;
 }
 
-.skill-header {
-  justify-content: center;
-  font-family: 'Milonga', cursive;
-  color:var(--darker-color);
-}
-
-.frontend-column {
-  padding-left:4em;
-}
-
-.backend-column {
- padding-left:20em;
-}
-
-.aws-column {
- padding-left:20em;
-}
-
-.other-skills-column {
- padding-left:10em;
+.language-container,
+.framework-and-library-container, 
+.concept-container,
+.software-tool-container, 
+.deployment-environment-container {
+  padding-left:2em;
 }
 
 .about-me {
@@ -81,7 +71,7 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  background-color: rgb(99, 79, 79);
+  background-color: var(--brown);
   padding: 2em;
   color: rgb(233, 223, 223);
 }
