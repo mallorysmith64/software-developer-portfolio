@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import Resume from './resume/MalloryASmith_Resume.pdf'
 
 class SocialMedia extends Component {
     
@@ -7,24 +6,24 @@ class SocialMedia extends Component {
         return (
             <>
         <div className="fixed-action-btn direction-top">
-            <a className="btn-floating btn-large orange darken-3" href="/#">
+            <a className="btn-floating btn-large" href="/#">
                 <i className="large material-icons white-text">link</i>
+            </a>
 
-            <ul class="fab-content">
+            <ul className="fab-content">
                 <li>
-                    <a className="btn-floating white" href="https://github.com/mallorysmith64" target="_blank">
+                    <a className="btn-floating white" href="https://github.com/mallorysmith64" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-slack orange-text text-darken-3" aria-hidden="true"></i>
                     </a>
                 </li>
 
                 <li>
-                    <a className="btn-floating white" href="https://www.linkedin.com/in/mallorysmith64/" target="_blank">
+                    <a className="btn-floating white" href="https://www.linkedin.com/in/mallorysmith64/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin-in orange-text text-darken-3"></i>
                     </a>
                 </li>
 
             </ul>
-            </a>
         </div>
     </>
     )
