@@ -80,6 +80,10 @@ ul {
   line-height: 0.5em;
 }
 
+.download-resume {
+  padding-top:1em;
+}
+
 .img-style {
   border: 2px black solid;
 }

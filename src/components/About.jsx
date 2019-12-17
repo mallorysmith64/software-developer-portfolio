@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ProfilePic from './images/mallory_profile_picture.jpeg'
-import Resume from './resume/MalloryASmith_Resume.pdf'
 
 class About extends Component {
   render() {
@@ -31,7 +30,7 @@ class About extends Component {
             <p>3) I am currently learning python and would like to start building in that language, as well.</p>
             <p>4) 5 years from now, I want to be able to teach others what I have learned.</p>
 
-            <div>
+            <div className="download-resume">
               <a href="resume/MalloryASmith_Resume.pdf" className="waves-effect waves-light btn" download="MaloryASmith_Resume.pdf">Download Resume</a>
             </div>
 
