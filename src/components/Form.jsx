@@ -13,6 +13,7 @@ class Form extends React.Component {
     const { status } = this.state;
     return (
       <form
+        className="contact-form"
         onSubmit={this.submitForm}
         action="https://formspree.io/xzbdbdkj"
         method="POST"
@@ -21,19 +22,28 @@ class Form extends React.Component {
           <h5>Contact Me</h5>
         </section>
 
-        <label>First Name:</label>
-        <input type="text" name="name"/>
+        <div className="input-field col s6">
+            <label>First Name:</label>
+            <input type="text" name="name"/>
+        </div>
 
-        <label>Last Name:</label>
-        <input type="text" name="name"/>
+        <div className="input-field col s6">
+            <label>Last Name:</label>
+            <input type="text" name="name"/>
+        </div>
 
-        <label>Email:</label>
-        <input type="email" name="email" />
+        <div className="input-field col s6">
+            <label>Email:</label>
+            <input type="email" name="email" />
+        </div>
 
+        <div className="input-field col s6">
         <label>Message:</label>
         <input type="text" name="message" />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className="btn waves-effect waves-light">Send Message</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </div>
+
       </form>
     );
   }

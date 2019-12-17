@@ -95,8 +95,7 @@ ul {
   color: var(--darker-color);
 }
 
-.form {
-  display: flex;
+.contact-form {
   padding: 2em;
   background-color: var(--main-color);
 }
