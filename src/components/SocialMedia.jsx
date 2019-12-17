@@ -12,22 +12,17 @@ class SocialMedia extends Component {
 
             <ul class="fab-content">
                 <li>
-                    <a className="btn-floating white" href="https://github.com/mallorysmith64" target="_blank" rel="noopener noreferrer">
+                    <a className="btn-floating white" href="https://github.com/mallorysmith64" target="_blank">
                         <i className="fab fa-slack orange-text text-darken-3" aria-hidden="true"></i>
                     </a>
                 </li>
 
                 <li>
-                    <a className="btn-floating white" href="https://www.linkedin.com/in/mallorysmith64/" target="_blank" rel="noopener noreferrer">
+                    <a className="btn-floating white" href="https://www.linkedin.com/in/mallorysmith64/" target="_blank">
                         <i className="fab fa-linkedin-in orange-text text-darken-3"></i>
                     </a>
                 </li>
 
-                {/* <li>
-                    <a className="btn-floating white" target="_blank" href={Resume} rel="noopener noreferrer">
-                    <i className="far fa-address-card orange-text text-darken-3"></i>
-                    </a>
-                </li> */}
             </ul>
             </a>
         </div>

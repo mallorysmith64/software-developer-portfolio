@@ -41,32 +41,6 @@ class MyWork extends Component {
         </main>
         <main className="photo-container">
 
-          {/* <section className="img-style">
-            <img
-              src={Weather}
-              alt="weather project overview"
-              height="400"
-              width="300"
-            />
-          </section>
-
-          <section className="img-style">
-            <img
-              src={Minesweeper}
-              alt="minesweeper project overview"
-              height="400"
-              width="300"
-            />
-          </section>
-
-          <section className="img-style">
-            <img
-              src={TV}
-              alt="TV guide project overview"
-              height="400"
-              width="300"
-            />
-          </section> */}
         </main>
       </>
     )
