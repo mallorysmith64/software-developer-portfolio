@@ -67,13 +67,17 @@ ul {
 
 .about-me {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
   list-style: none;
   background-color: var(--brown);
   padding: 2em;
   color: rgb(233, 223, 223);
+}
+
+.about-container {
+  display:flex;
+  flex-direction: column;
+  padding-left:2em;
+  line-height: 0.5em;
 }
 
 .img-style {
