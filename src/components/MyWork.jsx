@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import Octodex from './images/octodex_screenshot_resized.png'
 import Minesweeper from './images/minesweeper_screenshot.png'
 import TV from './images/tv_guide_screenshot_resized.png'
-import Weather from './images/weather_screenshot.png'
 
 class MyWork extends Component {
   render() {
@@ -42,7 +41,7 @@ class MyWork extends Component {
         </main>
         <main className="photo-container">
 
-          <section className="img-style">
+          {/* <section className="img-style">
             <img
               src={Weather}
               alt="weather project overview"
@@ -67,7 +66,7 @@ class MyWork extends Component {
               height="400"
               width="300"
             />
-          </section>
+          </section> */}
         </main>
       </>
     )
