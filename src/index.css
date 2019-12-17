@@ -96,8 +96,12 @@ ul {
 }
 
 .contact-form {
-  padding: 2em;
+  padding: 1.5em;
   background-color: var(--main-color);
+}
+
+.message-btn {
+margin-top:2em;
 }
 
 .page-footer {

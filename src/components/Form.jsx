@@ -23,24 +23,24 @@ class Form extends React.Component {
         </section>
 
         <div className="input-field col s6">
-            <label>First Name:</label>
+            <label>First Name</label>
             <input type="text" name="name"/>
         </div>
 
         <div className="input-field col s6">
-            <label>Last Name:</label>
+            <label>Last Name</label>
             <input type="text" name="name"/>
         </div>
 
         <div className="input-field col s6">
-            <label>Email:</label>
+            <label>Email</label>
             <input type="email" name="email" />
         </div>
 
         <div className="input-field col s6">
-        <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="btn waves-effect waves-light">Send Message</button>}
+        <label>Your Message</label>
+        <textarea name="message" required="required" className="form-control"></textarea>
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="btn waves-effect waves-light message-btn">Send Message</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </div>
 
