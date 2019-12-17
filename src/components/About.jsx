@@ -32,7 +32,7 @@ class About extends Component {
             <p>4) 5 years from now, I want to be able to teach others what I have learned.</p>
 
             <div>
-              <a href='./resume/MalloryASmith_Resume.pdf' className="waves-effect waves-light btn" download>Download Resume</a>
+              <a href="resume/MalloryASmith_Resume.pdf" className="waves-effect waves-light btn" download="MaloryASmith_Resume.pdf">Download Resume</a>
             </div>
 
           </section>
