@@ -2,12 +2,10 @@ import React, { useState, useEffect } from 'react'
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
 
 const images = [
-    "https://images.unsplash.com/photo-1559666126-84f389727b9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80",
-    "https://images.unsplash.com/photo-1557389352-e721da78ad9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1553969420-fb915228af51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80",
-    "https://images.unsplash.com/photo-1550596334-7bb40a71b6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    "https://images.unsplash.com/photo-1550640964-4775934de4af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-  ]
+    "https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_1600,c_limit/reddit-alien-red-st.jpg",
+    "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/1f/10/89/1f1089e7-6b38-1f9f-c679-7c78c696995a/contsched.voboeuui.lsr/1280x768bb.png",
+    "https://ih1.redbubble.net/image.836892656.7935/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg"
+]
 
 const Carousel = () => {
     const [imageIndex, setImageIndex] = useState(0)
@@ -24,23 +22,21 @@ useEffect(() => {
     }, [imageIndex])
     
     return (
-            <>
-            <section>
-                <Gallery
-                    index={imageIndex}
-                    onRequestChange={i => {
-                        setImageIndex(i)
-                    }}
-                >
-                    {images.map(image => (
-                        <GalleryImage objectFit="contain"
-                        src={image}  
-                      />
-                    ))}
-                </Gallery>
-            </section>
-            </>
-        )
-    }
+    <>
+    <section>
+        <Gallery
+            index={imageIndex}
+            onRequestChange={i => {
+            setImageIndex(i)
+        }}
+    >
+           {images.map(image => (
+        <GalleryImage objectFit="contain" key={image} src={image} />
+      ))}
+        </Gallery>
+    </section>
+    </>
+    )
+}
 
 export default Carousel
