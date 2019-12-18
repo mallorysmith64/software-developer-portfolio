@@ -56,6 +56,10 @@ ul {
   padding: 2em;
 }
 
+.project-images {
+  width:20em;
+}
+
 .skill-container {
   display:flex;
   background-color: #7B9169;

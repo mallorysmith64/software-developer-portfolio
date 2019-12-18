@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
 
 const images = [
@@ -11,10 +11,22 @@ const images = [
 
 const Carousel = () => {
     const [imageIndex, setImageIndex] = useState(0)
+
+useEffect(() => {
+    const timer = setInterval(() => {
+        if (imageIndex === 4) {
+            setImageIndex(0)
+        } else {
+            setImageIndex(prev => prev + 1)
+        }
+        }, 6000)
+        return () => clearInterval(timer)
+    }, [imageIndex])
     
-        return (
-            <div>
-                <Gallery 
+    return (
+            <>
+            <section>
+                <Gallery
                     index={imageIndex}
                     onRequestChange={i => {
                         setImageIndex(i)
@@ -22,10 +34,12 @@ const Carousel = () => {
                 >
                     {images.map(image => (
                         <GalleryImage objectFit="contain"
-                        src={image}  />
+                        src={image}  
+                      />
                     ))}
                 </Gallery>
-            </div>
+            </section>
+            </>
         )
     }
 
