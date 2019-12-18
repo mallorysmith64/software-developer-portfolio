@@ -201,7 +201,7 @@ margin-top:2em;
 } */
 
   /* Galaxy S5 */
-/* @media (min-height: 360px) and (max-height:640px) {
+@media (max-width: 360px) {
   nav {
     width:22.5em;
   }
@@ -242,4 +242,4 @@ margin-top:2em;
     flex-wrap:wrap;
     line-height: 1em;
   }
-} */
+}
