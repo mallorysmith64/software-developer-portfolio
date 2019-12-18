@@ -1,6 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
-  --nav-color: #080506;
+  --nav-color: rgb(2, 0, 0);
   --main-color: #ebf0ea;
   --lighter-color: #f0f7ee;
   --darker-color: #363946;
@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
 }
 
@@ -29,6 +28,12 @@ ul {
 .main-menu-right {
   display: flex;
   justify-content: flex-end;
+}
+
+.overlay {
+  display:flex;
+  height:34em;
+  width:79em;
 }
 
 .project-header {
@@ -129,4 +134,12 @@ margin-top:2em;
   position: relative;
   padding: 0.2em;
   padding-right: 0.4em;
+}
+
+/* iPad Pro */
+@media (min-height: 1024px) {
+  .overlay {
+    height:34em;
+    width:64em;
+  }
 }

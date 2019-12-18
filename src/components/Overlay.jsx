@@ -7,9 +7,8 @@ class Overlay extends Component {
             <>
             <img
               src={BrandImage}
+              className="overlay"
               alt="develop or go home background"
-              height="520"
-              width="1265"
             />
             </>
         )
