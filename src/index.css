@@ -138,7 +138,6 @@ margin-top:2em;
   padding-right: 0.4em;
 }
 
-/*greater than 1024px and less than 1366px/*
 /* iPad Pro */
 @media (min-height: 1024px) and (max-height:1366px) {
   .overlay {
@@ -179,4 +178,25 @@ margin-top:2em;
   .about-container {
     line-height: 1em;
   }
+}
+
+/* iPhone X */
+@media (min-height: 375px) and (max-height:812px) {
+  nav {
+    width:48em;
+  }
+
+  .main-menu-right {
+    position: relative;
+  }
+
+  .project-header, 
+  .photo-container,
+  .skill-container,
+  .about-me,
+  .contact-form,
+  .page-footer {
+    width:205%;
+  }
+
 }
