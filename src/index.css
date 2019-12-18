@@ -139,7 +139,7 @@ margin-top:2em;
 }
 
 /* iPad Pro */
-@media (min-height: 1024px) and (max-height:1366px) {
+@media (max-width: 1024px) and (max-height:1366px) {
   .overlay {
     height:34em;
     width:64em;
@@ -147,7 +147,7 @@ margin-top:2em;
 }
 
 /* iPad */
-@media (min-height: 768px) and (max-height:1024px) {
+@media (max-width: 768px) and (max-height:1024px) {
 
   .nav {
   display:flex;
@@ -181,7 +181,7 @@ margin-top:2em;
 }
 
 /* iPhone X */
-/* @media (min-height: 375px) and (max-height:812px) {
+@media (max-width: 375px) {
   nav {
     width:48em;
   }
@@ -198,7 +198,7 @@ margin-top:2em;
   .page-footer {
     width:205%;
   }
-} */
+}
 
   /* Galaxy S5 */
 @media (max-width: 360px) {
