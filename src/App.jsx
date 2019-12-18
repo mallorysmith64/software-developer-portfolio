@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Nav from './components/Nav.jsx'
 import Overlay from './components/Overlay.jsx'
+import Carousel from './components/Carousel.jsx'
 import MyWork from './components/MyWork.jsx'
 import Skills from './components/Skills.jsx'
 import About from './components/About.jsx'
@@ -14,6 +15,7 @@ class App extends Component {
       <>
         <Nav />
         <Overlay/>
+        <Carousel/>
         <MyWork />
         <Skills/>
         <About />
