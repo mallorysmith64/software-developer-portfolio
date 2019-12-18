@@ -17,6 +17,7 @@ body {
 }
 
 .nav {
+  position:relative;
   background-color: var(--nav-color);
   color: var(--lighter-color);
 }
@@ -67,6 +68,7 @@ ul {
 .concept-container,
 .software-tool-container, 
 .deployment-environment-container {
+  position:relative;
   padding-left:2em;
 }
 
@@ -136,10 +138,45 @@ margin-top:2em;
   padding-right: 0.4em;
 }
 
+/*greater than 1024px and less than 1366px/*
 /* iPad Pro */
-@media (min-height: 1024px) {
+@media (min-height: 1024px) and (max-height:1366px) {
   .overlay {
     height:34em;
     width:64em;
+  }
+}
+
+/* iPad */
+@media (min-height: 768px) and (max-height:1024px) {
+
+  .nav {
+  display:flex;
+  justify-content: flex-end;
+  }
+
+  .main-menu-right {
+    width:20em;
+  }
+
+  .overlay {
+    height:30em;
+    width:48em;
+  }
+
+  .language-container, 
+  .framework-and-library-container, 
+  .concept-container, 
+  .software-tool-container, 
+  .deployment-environment-container {
+    padding:0.2em;
+  }
+
+  .about-me {
+    padding: 1em;
+  }
+  
+  .about-container {
+    line-height: 1em;
   }
 }

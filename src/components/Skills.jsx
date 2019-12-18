@@ -33,18 +33,18 @@ class About extends Component {
       <section className="concept-container">
         <ul className="concepts">
           <h5>Programming Concepts</h5>
-          <li>Object Oriented Programming (OOP)</li>
+          <li>Object Oriented Programming</li>
           <li>Model View Controller (MVC)</li>
           <li>RESTful API</li>
           <li>Mobile First Design</li>
-          <li>Single Page Apps (SPAs)</li>
+          <li>Single Page Apps</li>
         </ul>
       </section>
 
       <section className="software-tool-container">
         <ul className="software-tools">
           <h5>Software Tools</h5>
-          <li>Visual Studios Code (VS Code)</li>
+          <li>Visual Studios Code</li>
           <li>Slack</li>
           <li>Trello</li>
           <li>Git</li>
