@@ -15,7 +15,7 @@ class MyWork extends Component {
         <main className="photos-container">
         
         <header className="project">
-          <a href="https://reddit-capstone.herokuapp.com/" className="project-title">Reddit Capstone</a>
+          <a href="https://reddit-capstone.herokuapp.com/" id="reddit-project">Reddit Capstone</a>
           <section className="img-style">
             <img
               src="https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_1600,c_limit/reddit-alien-red-st.jpg"
@@ -33,7 +33,7 @@ class MyWork extends Component {
           </header>
 
         <header className="project">
-        <a href="https://space-x-mallorysmith64.netlify.com/" className="project-title">SpaceX</a>
+        <a href="https://space-x-mallorysmith64.netlify.com/" id="spacex-project">SpaceX</a>
           <section className="img-style">
             <img
               src={SpaceX}
@@ -51,7 +51,7 @@ class MyWork extends Component {
         </header>
 
         <header className="project">
-        <a href="https://octodex-mallorysmith64.netlify.com/" className="project-title">Octodex</a>
+        <a href="https://octodex-mallorysmith64.netlify.com/" id="octodex-project">Octodex</a>
           <section className="img-style">
             <img
               src={Octodex}
@@ -61,14 +61,13 @@ class MyWork extends Component {
             />
           </section>
           <article className="project-description">
-              <p>This full-stack app recreates the look and feel of Reddit.</p>
-              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              {/* <p></p> */}
               <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
             </article>
         </header>
 
         <header className="project">
-        <a href="https://minesweeper-mallorysmith64.netlify.com/" className="project-title">Minesweeper</a>
+        <a href="https://minesweeper-mallorysmith64.netlify.com/" id="minesweeper-project">Minesweeper</a>
           <section className="img-style">
             <img
               src={Minesweeper}
@@ -78,14 +77,13 @@ class MyWork extends Component {
             />
           </section>
           <article className="project-description">
-              <p>This full-stack app recreates the look and feel of Reddit.</p>
-              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              {/* <p></p> */}
               <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
             </article>
         </header>
 
         <header className="project">
-        <a href="https://tv-guide-mallorysmith64.netlify.com/" className="project-title">TV Guide</a>
+        <a href="https://tv-guide-mallorysmith64.netlify.com/" id="tv-guide-project">TV Guide</a>
           <section className="img-style">
             <img
               src={TV}
@@ -95,14 +93,13 @@ class MyWork extends Component {
             />
           </section>
           <article className="project-description">
-              <p>This full-stack app recreates the look and feel of Reddit.</p>
-              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+             {/* <p></p> */}
               <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
             </article>
         </header>
 
         <header className="project">
-        <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" className="project-title">Minimalist Tic-Tac-Toe</a>
+        <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-project">Minimalist Tic-Tac-Toe</a>
           <section className="img-style">
             <img
               src="https://previews.123rf.com/images/styleuneed/styleuneed1206/styleuneed120600111/13915155-tic-tac-toe-symbol.jpg"
@@ -112,8 +109,7 @@ class MyWork extends Component {
             />
           </section>
           <article className="project-description">
-              <p>This full-stack app recreates the look and feel of Reddit.</p>
-              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+            {/* <p></p> */}
               <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
             </article>
         </header>

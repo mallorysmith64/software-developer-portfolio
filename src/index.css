@@ -47,15 +47,19 @@ ul {
   background-color: #5C7E58;
 }
 
-.project-title {
+#reddit-project {
   display:flex;
-  padding:3.8em;
+  padding:3.2em;
+}
+
+#spacex-project {
+  display:flex;
+  padding:5em;
 }
 
 .project {
   display:flex;
   flex-wrap: wrap;
-  padding-left:2em;
   font-size:2em;
   padding-bottom:2em;
 }
@@ -114,8 +118,6 @@ ul {
 .download-resume {
   padding-top:1em;
 }
-
-
 
 .contact-header {
   display: flex;
