@@ -6,7 +6,7 @@ import Skills from './components/Skills.jsx'
 import About from './components/About.jsx'
 import Form from './components/Form.jsx'
 import Footer from './components/Footer.jsx'
-import SocialMedia from './components/SocialMedia.jsx'
+// import SocialMedia from './components/SocialMedia.jsx'
 
 class App extends Component {
   render() {
@@ -19,7 +19,7 @@ class App extends Component {
         <About />
         <Form/>
         <Footer />
-        <SocialMedia/>
+        {/* <SocialMedia/> */}
       </>
     )
   }
