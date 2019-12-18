@@ -43,16 +43,35 @@ ul {
   padding: 1em 1em 0.2em 1em;
 }
 
-.project-header, .photo-container {
+.project-header, .photos-container {
   background-color: #5C7E58;
 }
 
 .project-title {
+  display:flex;
+  padding:3.8em;
+}
+
+.project {
+  display:flex;
+  flex-wrap: wrap;
+  padding-left:2em;
   font-size:2em;
   padding-bottom:2em;
 }
 
-.photo-container {
+.img-style {
+  display:flex;
+  border: 0.2em rgb(80, 78, 78) dashed;
+  height:415px;
+  width:315px;
+ }
+
+.project-description {
+  font-size:0.8em;
+}
+
+.photos-container {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -97,9 +116,6 @@ ul {
 }
 
 
-.img-style {
-  border: 0.2em rgb(80, 78, 78) dashed;
-}
 
 .contact-header {
   display: flex;

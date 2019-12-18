@@ -12,9 +12,10 @@ class MyWork extends Component {
           <h2>Projects</h2>
         </section>
         
-        <main className="photo-container">
-
-        <header className="project-title">Reddit
+        <main className="photos-container">
+        
+        <header className="project">
+          <a href="https://reddit-capstone.herokuapp.com/" className="project-title">Reddit Capstone</a>
           <section className="img-style">
             <img
               src="https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_1600,c_limit/reddit-alien-red-st.jpg"
@@ -23,9 +24,16 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+            <article className="project-description">
+              <p>This full-stack app recreates the look and feel of Reddit.</p>
+              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              <p>Technologies Used: C#, .NET Core, Entity Framework, Auth0, Heroku, PostgreSQL, React.js, Bulma CSS Framework, CSS Flexbox, HTML5</p>
+              <a href="https://github.com/mallorysmith64/Reddit-Capstone">Reddit Capstone's Code</a>
+            </article>
           </header>
 
-        <header className="project-title">SpaceX
+        <header className="project">
+        <a href="https://space-x-mallorysmith64.netlify.com/" className="project-title">SpaceX</a>
           <section className="img-style">
             <img
               src={SpaceX}
@@ -34,9 +42,16 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+          <article className="project-description">
+              <p>Objective: Use RESTful API to show user upcoming SpaceX launch information</p>
+              {/* <p>Features Included</p> */}
+              <p>Technologies Used: Javascript, Netlify, CSS Flexbox, HTML5</p>
+              <a href="https://github.com/mallorysmith64/space-x">SpaceX Code</a>
+            </article>
         </header>
 
-        <header className="project-title">GitHub Octodex
+        <header className="project">
+        <a href="https://octodex-mallorysmith64.netlify.com/" className="project-title">Octodex</a>
           <section className="img-style">
             <img
               src={Octodex}
@@ -45,9 +60,15 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+          <article className="project-description">
+              <p>This full-stack app recreates the look and feel of Reddit.</p>
+              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
+            </article>
         </header>
 
-        <header className="project-title">Minesweeper
+        <header className="project">
+        <a href="https://minesweeper-mallorysmith64.netlify.com/" className="project-title">Minesweeper</a>
           <section className="img-style">
             <img
               src={Minesweeper}
@@ -56,9 +77,15 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+          <article className="project-description">
+              <p>This full-stack app recreates the look and feel of Reddit.</p>
+              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
+            </article>
         </header>
 
-        <header className="project-title">TV Guide
+        <header className="project">
+        <a href="https://tv-guide-mallorysmith64.netlify.com/" className="project-title">TV Guide</a>
           <section className="img-style">
             <img
               src={TV}
@@ -67,9 +94,15 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+          <article className="project-description">
+              <p>This full-stack app recreates the look and feel of Reddit.</p>
+              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
+            </article>
         </header>
 
-        <header className="project-title">Minimalist Tic-Tac-Toe
+        <header className="project">
+        <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" className="project-title">Minimalist Tic-Tac-Toe</a>
           <section className="img-style">
             <img
               src="https://previews.123rf.com/images/styleuneed/styleuneed1206/styleuneed120600111/13915155-tic-tac-toe-symbol.jpg"
@@ -78,6 +111,11 @@ class MyWork extends Component {
               width="300"
             />
           </section>
+          <article className="project-description">
+              <p>This full-stack app recreates the look and feel of Reddit.</p>
+              <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
+              <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
+            </article>
         </header>
 
         </main>
