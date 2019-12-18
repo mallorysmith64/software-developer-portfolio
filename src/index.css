@@ -40,11 +40,16 @@ ul {
 .project-header {
   font-family: 'Milonga', cursive;
   text-align: center;
-  padding: 1em;
+  padding: 1em 1em 0.2em 1em;
 }
 
 .project-header, .photo-container {
   background-color: #5C7E58;
+}
+
+.project-title {
+  font-size:2em;
+  padding-bottom:2em;
 }
 
 .photo-container {
@@ -54,10 +59,6 @@ ul {
   flex-wrap: wrap;
   list-style: none;
   padding: 2em;
-}
-
-.project-images {
-  width:20em;
 }
 
 .skill-container {
@@ -95,8 +96,9 @@ ul {
   padding-top:1em;
 }
 
+
 .img-style {
-  border: 2px black solid;
+  border: 0.2em rgb(80, 78, 78) dashed;
 }
 
 .contact-header {
