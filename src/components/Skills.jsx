@@ -14,7 +14,6 @@ class About extends Component {
             <li>Python</li>
             <li>PostgreSQL</li>
             <li>SQL</li>
-            <li>SCSS/SASS</li>
             <li>CSS Flexbox</li>
             <li>HTML5</li>
         </ul>

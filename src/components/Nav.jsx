@@ -10,16 +10,12 @@ class Nav extends Component {
             <li>
               <a
                 className="nav"
-                href="https://github.com/mallorysmith64?tab=repositories"
+                href="https://github.com/mallorysmith64"
               >
                 Projects
               </a>
             </li>
-            <li>
-              <a className="nav" href="https://github.com/mallorysmith64/MalloryASmith_Resume/blob/master/MalloryASmith_Resume.pdf">
-                Resume
-              </a>
-            </li>
+
             <li>
               <a className="nav" href="/#">
                 Connect
