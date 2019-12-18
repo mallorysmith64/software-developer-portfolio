@@ -181,7 +181,7 @@ margin-top:2em;
 }
 
 /* iPhone X */
-@media (min-height: 375px) and (max-height:812px) {
+/* @media (min-height: 375px) and (max-height:812px) {
   nav {
     width:48em;
   }
@@ -198,9 +198,10 @@ margin-top:2em;
   .page-footer {
     width:205%;
   }
+} */
 
   /* Galaxy S5 */
-@media (min-height: 360px) and (max-height:640px) {
+/* @media (min-height: 360px) and (max-height:640px) {
   nav {
     width:22.5em;
   }
@@ -209,7 +210,6 @@ margin-top:2em;
     height:15em;
     width:22.5em;
   }
-}
 
   .project-header, 
   .photo-container,
@@ -230,10 +230,11 @@ margin-top:2em;
   .concept-container,
   .software-tool-container, 
   .deployment-environment-container {
-  padding:0.2em;
-}
+    padding:0.2em;
+  }
+
   .profile-pic-container {
-   display:none !important;
+    display:none;
   }
 
   .about-container {
@@ -241,4 +242,4 @@ margin-top:2em;
     flex-wrap:wrap;
     line-height: 1em;
   }
-}
+} */
