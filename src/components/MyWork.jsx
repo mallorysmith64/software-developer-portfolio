@@ -45,11 +45,12 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <article className="project-description">
+          <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
               <p>Objective: Use RESTful API to show user upcoming SpaceX launch information</p>
-              {/* <p>Features Included</p> */}
               <p>Technologies Used: Javascript, Netlify, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/space-x">SpaceX Code</a>
+              </Collapsible>
             </article>
         </header>
 
@@ -63,9 +64,10 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <article className="project-description">
-              {/* <p></p> */}
+          <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
               <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
+              </Collapsible>
             </article>
         </header>
 
@@ -79,10 +81,11 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <article className="project-description">
-              {/* <p></p> */}
+          <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
               <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
-            </article>
+              </Collapsible>
+          </article>
         </header>
 
         <header className="project">
@@ -95,9 +98,10 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <article className="project-description">
-             {/* <p></p> */}
+          <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
               <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
+              </Collapsible>
             </article>
         </header>
 
@@ -111,9 +115,10 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-          <article className="project-description">
-            {/* <p></p> */}
+          <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
               <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
+              </Collapsible>
             </article>
         </header>
 
