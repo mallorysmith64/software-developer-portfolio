@@ -70,12 +70,13 @@ ul {
 }
 
 #tv-guide-project {
-  padding-left:0.6em;
+  padding-left:2em;
 }
 
 #tic-tac-toe-project {
-  padding:2em;
+  padding-right:2em;
 }
+
 
 #reddit-title {
   padding:1em;
@@ -124,7 +125,7 @@ ul {
   background-color: black;
   color:yellow;
   font-size:0.8em;
-  width:60%;
+  width:80%;
 }
 
 .photos-container {

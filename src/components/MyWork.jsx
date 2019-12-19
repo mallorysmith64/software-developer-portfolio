@@ -124,7 +124,7 @@ class MyWork extends Component {
             </article>
         </div>
 
-        <div className="project tic-tac-toe-project">
+        <div className="project" id="tic-tac-toe-project">
         <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-title">Tic-Tac-Toe</a>
           <section className="img-style">
             <img
