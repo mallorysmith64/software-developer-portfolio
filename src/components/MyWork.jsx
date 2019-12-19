@@ -3,6 +3,7 @@ import SpaceX from './images/space_x_screenshot.png'
 import Octodex from './images/octodex_screenshot_resized.png'
 import Minesweeper from './images/minesweeper_screenshot.png'
 import TV from './images/tv_guide_screenshot_resized.png'
+import Collapsible from 'react-collapsible'
 
 class MyWork extends Component {
   render() {
@@ -24,11 +25,13 @@ class MyWork extends Component {
               width="300"
             />
           </section>
-            <article className="project-description">
+            <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
               <p>This full-stack app recreates the look and feel of Reddit.</p>
               <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
               <p>Technologies Used: C#, .NET Core, Entity Framework, Auth0, Heroku, PostgreSQL, React.js, Bulma CSS Framework, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/Reddit-Capstone">Reddit Capstone's Code</a>
+              </Collapsible>
             </article>
           </header>
 

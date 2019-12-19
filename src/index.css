@@ -58,8 +58,6 @@ ul {
 }
 
 .project {
-  display:flex;
-  flex-wrap: wrap;
   font-size:2em;
   padding-bottom:2em;
 }
@@ -71,8 +69,20 @@ ul {
   width:315px;
  }
 
-.project-description {
+
+ .before-collapse {
+   border:0.1em black solid;
+   background-color:white;
+   color:black;
+ }
+
+.after-collapse {
+  display:flex;
+  flex-direction: column;
+  background-color: black;
+  color:yellow;
   font-size:0.8em;
+  width:17%;
 }
 
 .photos-container {
