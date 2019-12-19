@@ -15,10 +15,11 @@ class MyWork extends Component {
           <h2>Projects</h2>
         </section>
         
-        <main className="photos-container">
+    <main className="photos-container">
+      <div className="row-one">
         
-        <header className="project">
-          <a href="https://reddit-capstone.herokuapp.com/" id="reddit-project">Reddit Capstone</a>
+        <div className="project">
+          <a href="https://reddit-capstone.herokuapp.com/" id="reddit-title">Reddit Capstone</a>
           <section className="img-style">
             <img
               src={Reddit}
@@ -35,9 +36,9 @@ class MyWork extends Component {
               <a href="https://github.com/mallorysmith64/Reddit-Capstone">Reddit Capstone's Code</a>
               </Collapsible>
             </article>
-          </header>
+          </div>
 
-        <header className="project">
+        <div className="project">
         <a href="https://space-x-mallorysmith64.netlify.com/" id="spacex-project">SpaceX</a>
           <section className="img-style">
             <img
@@ -54,9 +55,9 @@ class MyWork extends Component {
               <a href="https://github.com/mallorysmith64/space-x">SpaceX Code</a>
               </Collapsible>
             </article>
-        </header>
+        </div>
 
-        <header className="project">
+        <div className="project">
         <a href="https://octodex-mallorysmith64.netlify.com/" id="octodex-project">Octodex</a>
           <section className="img-style">
             <img
@@ -71,9 +72,10 @@ class MyWork extends Component {
               <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
               </Collapsible>
             </article>
-        </header>
+        </div>
+      </div>
 
-        <header className="project">
+        <div className="project">
         <a href="https://minesweeper-mallorysmith64.netlify.com/" id="minesweeper-project">Minesweeper</a>
           <section className="img-style">
             <img
@@ -88,9 +90,9 @@ class MyWork extends Component {
               <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
               </Collapsible>
           </article>
-        </header>
+        </div>
 
-        <header className="project">
+        <div className="project">
         <a href="https://tv-guide-mallorysmith64.netlify.com/" id="tv-guide-project">TV Guide</a>
           <section className="img-style">
             <img
@@ -105,9 +107,9 @@ class MyWork extends Component {
               <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
               </Collapsible>
             </article>
-        </header>
+        </div>
 
-        <header className="project">
+        <div className="project">
         <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-project">Minimalist Tic-Tac-Toe</a>
           <section className="img-style">
             <img
@@ -122,7 +124,7 @@ class MyWork extends Component {
               <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
               </Collapsible>
             </article>
-        </header>
+        </div>
 
         </main>
       </>

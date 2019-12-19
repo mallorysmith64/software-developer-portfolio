@@ -47,15 +47,14 @@ ul {
   background-color: #5C7E58;
 }
 
-#reddit-project {
+.row-one {
   display:flex;
-  padding:3.2em;
+  flex-direction: row;
 }
 
-#spacex-project {
-  display:flex;
-  padding:5em;
-}
+/* #spacex-project {
+  padding:1em;
+} */
 
 .project {
   font-size:2em;
