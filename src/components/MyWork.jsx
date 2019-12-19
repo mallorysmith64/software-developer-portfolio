@@ -109,10 +109,10 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
-                <p>Description: This project contains a list of top-rated TV shows. 
-                  A random TV show is highlighted and changes frequently as you view different shows. 
-                  There are details for each show and a list of cast members, as well</p>
-        
+                <p>Objective: 
+                  Make an attractive design for a tv guide and show users a list of top-rated shows with a description, 
+                  a highlighted random show at the top of the page, 
+                  and details for cast members.</p>
               <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
               </Collapsible>
             </article>
