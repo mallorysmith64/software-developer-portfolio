@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Collapsible from 'react-collapsible'
 
-import SpaceX from './images/space_x_screenshot.png'
-import Octodex from './images/octodex_screenshot_resized.png'
-import Minesweeper from './images/minesweeper_screenshot.png'
-import TV from './images/tv_guide_screenshot_resized.png'
 import Reddit from './images/reddit_capstone_screenshot.png'
+import SpaceX from './images/spacex_screenshot.png'
+import Octodex from './images/octodex_screenshot.png'
+import Minesweeper from './images/minesweeper_screenshot.png'
+import TV from './images/tv_guide_screenshot.png'
+import TicTacToe from './images/tic_tac_toe_screenshot.png'
 
 class MyWork extends Component {
   render() {
@@ -115,7 +116,7 @@ class MyWork extends Component {
         <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-title">Tic-Tac-Toe</a>
           <section className="img-style">
             <img
-              src="https://previews.123rf.com/images/styleuneed/styleuneed1206/styleuneed120600111/13915155-tic-tac-toe-symbol.jpg"
+              src={TicTacToe}
               alt="Minimalist Tic-Tac-Toe project overview"
               height="400"
               width="300"
