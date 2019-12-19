@@ -94,7 +94,8 @@ class MyWork extends Component {
               <Collapsible className="before-collapse" trigger="Read More">
                 <p>Objective: Use RESTful API for some of the game logic, 
                   display a message to show player they won or lost, 
-                  allow user to play multiple difficulty levels.</p>
+                  and allow user to play multiple difficulty levels.</p>
+                <p>React.js, Netlify, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
               </Collapsible>
           </article>
@@ -113,7 +114,8 @@ class MyWork extends Component {
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
                 <p>Objective: 
-                  Make an attractive design for a tv guide and show users a list of top-rated shows with a description, 
+                  Make an attractive design for a tv guide 
+                  and show users a list of top-rated shows with a description, 
                   a highlighted random show at the top of the page, 
                   and details for cast members.</p>
                 <p>Technologies Used: React.js, Netlify, CSS Flexbox, HTML5</p>
@@ -140,6 +142,7 @@ class MyWork extends Component {
               </Collapsible>
             </article>
         </div>
+  </div>  
 
 {/* tetris deluxe project will go here when done */}
         {/* <div className="row">
@@ -161,7 +164,6 @@ class MyWork extends Component {
         </div>
       </div> */}
 
-      </div>
 
         </main>
       </>

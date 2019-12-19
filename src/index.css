@@ -64,12 +64,17 @@ ul {
   padding-right:2em;
 }
 
+
 #minesweeper-project {
-  padding-right:2em;
+  padding-left:2em;
 }
 
 #tv-guide-project {
-  padding-right:2em;
+  padding-left:0.6em;
+}
+
+#tic-tac-toe-project {
+  padding:2em;
 }
 
 #reddit-title {
@@ -119,7 +124,7 @@ ul {
   background-color: black;
   color:yellow;
   font-size:0.8em;
-  width:82%;
+  width:60%;
 }
 
 .photos-container {
