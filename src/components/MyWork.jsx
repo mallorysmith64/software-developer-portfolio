@@ -51,7 +51,7 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
-              <p>Objective: Use RESTful API to show user upcoming SpaceX launch information</p>
+              <p>Objective: Use RESTful API to show user upcoming SpaceX launch information and show the picture of the day</p>
               <p>Technologies Used: Javascript, Netlify, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/space-x">SpaceX Code</a>
               </Collapsible>
@@ -70,7 +70,7 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
-                <p>Objective: Clone GitHub’s Octodex website</p>
+                <p>Objective: Remake GitHub’s Octodex site</p>
                 <p>Technologies Used: React.js, Netlify, Bulma CSS Framework, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
               </Collapsible>
@@ -92,6 +92,9 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
+                <p>Objective: Use RESTful API for some of the game logic, 
+                  display a message to show player they won or lost, 
+                  allow user to play multiple difficulty levels.</p>
               <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
               </Collapsible>
           </article>
@@ -113,6 +116,7 @@ class MyWork extends Component {
                   Make an attractive design for a tv guide and show users a list of top-rated shows with a description, 
                   a highlighted random show at the top of the page, 
                   and details for cast members.</p>
+                <p>Technologies Used: React.js, Netlify, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
               </Collapsible>
             </article>
@@ -131,7 +135,7 @@ class MyWork extends Component {
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
                 <p>Objective: Create a sleek design for a great game</p>
-                <p>Technologies Used: React.js, CSS Flexbox, HTML5</p>
+                <p>Technologies Used: React.js, Netlify, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
               </Collapsible>
             </article>
