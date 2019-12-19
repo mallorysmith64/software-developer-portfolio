@@ -109,6 +109,10 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
+                <p>Description: This project contains a list of top-rated TV shows. 
+                  A random TV show is highlighted and changes frequently as you view different shows. 
+                  There are details for each show and a list of cast members, as well</p>
+        
               <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
               </Collapsible>
             </article>
@@ -126,6 +130,8 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
+                <p>Objective: Create a sleek design for a great game</p>
+                <p>Technologies Used: React.js, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
               </Collapsible>
             </article>
