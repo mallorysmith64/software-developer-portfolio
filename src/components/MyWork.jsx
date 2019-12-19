@@ -70,6 +70,8 @@ class MyWork extends Component {
           </section>
           <article className="after-collapse">
               <Collapsible className="before-collapse" trigger="Read More">
+                <p>Objective: Clone GitHub’s Octodex website</p>
+                <p>Technologies Used: React.js, Netlify, Bulma CSS Framework, CSS Flexbox, HTML5</p>
               <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
               </Collapsible>
             </article>
