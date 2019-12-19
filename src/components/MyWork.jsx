@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import Collapsible from 'react-collapsible'
+
 import SpaceX from './images/space_x_screenshot.png'
 import Octodex from './images/octodex_screenshot_resized.png'
 import Minesweeper from './images/minesweeper_screenshot.png'
 import TV from './images/tv_guide_screenshot_resized.png'
-import Collapsible from 'react-collapsible'
+import Reddit from './images/reddit_capstone_screenshot.png'
 
 class MyWork extends Component {
   render() {
@@ -19,7 +21,7 @@ class MyWork extends Component {
           <a href="https://reddit-capstone.herokuapp.com/" id="reddit-project">Reddit Capstone</a>
           <section className="img-style">
             <img
-              src="https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_1600,c_limit/reddit-alien-red-st.jpg"
+              src={Reddit}
               alt="Reddit Clone project overview"
               height="400"
               width="300"
