@@ -128,6 +128,27 @@ class MyWork extends Component {
               </Collapsible>
             </article>
         </div>
+
+{/* tetris deluxe project will go here when done */}
+        {/* <div className="row">
+        <div className="project" id="tetris-project">
+        <a href="" id="tetris-title">Tetris</a>
+          <section className="img-style">
+            <img
+              src={Tetris}
+              alt="Tetris project overview"
+              height="400"
+              width="300"
+            />
+          </section>
+          <article className="after-collapse">
+              <Collapsible className="before-collapse" trigger="Read More">
+              <a href="">Tetris Code</a>
+              </Collapsible>
+          </article>
+        </div>
+      </div> */}
+
       </div>
 
         </main>
