@@ -16,9 +16,9 @@ class MyWork extends Component {
         </section>
         
     <main className="photos-container">
-      <div className="row-one">
-        
-        <div className="project">
+
+      <div className="row">
+        <div className="project" id="reddit-project">
           <a href="https://reddit-capstone.herokuapp.com/" id="reddit-title">Reddit Capstone</a>
           <section className="img-style">
             <img
@@ -38,8 +38,8 @@ class MyWork extends Component {
             </article>
           </div>
 
-        <div className="project">
-        <a href="https://space-x-mallorysmith64.netlify.com/" id="spacex-project">SpaceX</a>
+        <div className="project" id="spacex-project">
+        <a href="https://space-x-mallorysmith64.netlify.com/" id="spacex-title">SpaceX</a>
           <section className="img-style">
             <img
               src={SpaceX}
@@ -57,8 +57,8 @@ class MyWork extends Component {
             </article>
         </div>
 
-        <div className="project">
-        <a href="https://octodex-mallorysmith64.netlify.com/" id="octodex-project">Octodex</a>
+        <div className="project" id="octodex-project">
+        <a href="https://octodex-mallorysmith64.netlify.com/" id="octodex-title">Octodex</a>
           <section className="img-style">
             <img
               src={Octodex}
@@ -75,8 +75,10 @@ class MyWork extends Component {
         </div>
       </div>
 
-        <div className="project">
-        <a href="https://minesweeper-mallorysmith64.netlify.com/" id="minesweeper-project">Minesweeper</a>
+
+      <div className="row">
+        <div className="project" id="minesweeper-project">
+        <a href="https://minesweeper-mallorysmith64.netlify.com/" id="minesweeper-title">Minesweeper</a>
           <section className="img-style">
             <img
               src={Minesweeper}
@@ -92,8 +94,8 @@ class MyWork extends Component {
           </article>
         </div>
 
-        <div className="project">
-        <a href="https://tv-guide-mallorysmith64.netlify.com/" id="tv-guide-project">TV Guide</a>
+        <div className="project" id="tv-guide-project">
+        <a href="https://tv-guide-mallorysmith64.netlify.com/" id="tv-guide-title">TV Guide</a>
           <section className="img-style">
             <img
               src={TV}
@@ -109,8 +111,8 @@ class MyWork extends Component {
             </article>
         </div>
 
-        <div className="project">
-        <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-project">Minimalist Tic-Tac-Toe</a>
+        <div className="project tic-tac-toe-project">
+        <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-title">Tic-Tac-Toe</a>
           <section className="img-style">
             <img
               src="https://previews.123rf.com/images/styleuneed/styleuneed1206/styleuneed120600111/13915155-tic-tac-toe-symbol.jpg"
@@ -125,6 +127,7 @@ class MyWork extends Component {
               </Collapsible>
             </article>
         </div>
+      </div>
 
         </main>
       </>

@@ -47,18 +47,57 @@ ul {
   background-color: #5C7E58;
 }
 
-.row-one {
+.row {
   display:flex;
   flex-direction: row;
 }
 
-/* #spacex-project {
+#reddit-project {
+  padding-left:2em;
+}
+
+#spacex-project {
+  padding-right:2em;
+}
+
+#octodex-project {
+  padding-right:2em;
+}
+
+#minesweeper-project {
+  padding-right:2em;
+}
+
+#tv-guide-project {
+  padding-right:2em;
+}
+
+#reddit-title {
   padding:1em;
-} */
+}
+
+#spacex-title {
+  padding:3em;
+}
+
+#octodex-title {
+  padding:3em;
+}
+
+#minesweeper-title {
+  padding-left:2em;
+}
+
+#tv-guide-title {
+  padding-left:3em;
+}
+
+#tic-tac-toe-title {
+  padding-left:2em;
+}
 
 .project {
   font-size:2em;
-  padding-bottom:2em;
 }
 
 .img-style {
