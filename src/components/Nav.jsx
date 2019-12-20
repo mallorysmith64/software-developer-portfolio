@@ -4,6 +4,7 @@ class Nav extends Component {
   render() {
     return (
       <>
+      {/* todo: make breadcrumbs for projects, skills, about me, and contact sections */}
         <nav className="nav">
          
           <ul className="main-menu-right">
@@ -15,13 +16,8 @@ class Nav extends Component {
                 Projects
               </a>
             </li>
-
-            <li>
-              <a className="nav" href="/#">
-                Connect
-              </a>
-            </li>
           </ul>
+
         </nav>
       </>
     )

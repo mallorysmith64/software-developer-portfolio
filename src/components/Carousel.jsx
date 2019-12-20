@@ -31,7 +31,7 @@ useEffect(() => {
         style={{
             background: "black",
             height: "80vh",
-            width: "100vw"
+            width: "98.8vw"
           }}
             index={imageIndex}
             onRequestChange={i => {
