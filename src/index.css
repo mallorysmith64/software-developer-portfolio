@@ -293,13 +293,38 @@ margin-top:2em;
     width:22.5em;
   }
 
-  .project-header, 
-  .photo-container,
+  .project-header,
   .skill-container,
   .about-me,
   .contact-form,
   .page-footer {
     width:100%;
+  }
+
+  .row {
+    display:flex;
+    flex-wrap: wrap;
+    padding:0em;
+  }
+
+  #reddit-project {
+    padding:0em 2em 2em 2em;
+  }
+
+  #spacex-project {
+    padding:0em 2em 2em 2em;
+  }
+
+  #octodex-project {
+    padding:0em 2em 2em 2em;
+  }
+
+  #minesweeper-project {
+    padding:0em 2em 2em 2em;
+  }
+
+  #tic-tac-toe-project {
+    padding:2em 2em 2em 2em;
   }
 
   .skill-container {
