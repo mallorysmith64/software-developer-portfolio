@@ -1,9 +1,6 @@
 # My Portfolio
 
-**Welcome!**
-
-Checkout my portfolio! :smiley: </br>
-https://my-portfolio-mallorysmith64.netlify.com/ </br>
+Checkout my portfolio :smiley: https://my-portfolio-mallorysmith64.netlify.com/ </br>
 
 Portfolio Features Coming Soon:
 1) Tetris Deluxe is currently underdevelopment, but when it's finished it will be added to my list of projects.
