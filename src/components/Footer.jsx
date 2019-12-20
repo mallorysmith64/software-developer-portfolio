@@ -17,11 +17,9 @@ class Footer extends Component {
               <li>
                 <a href="https://github.com/mallorysmith64?tab=repositories">
                 <img
-                    className="github"
+                    className="github responsive-img"
                     src={GitHub}
                     alt="GitHub site icon"
-                    height="42"
-                    width="42"
                   />
                 </a>
               </li>
@@ -29,11 +27,9 @@ class Footer extends Component {
               <li>
                 <a href="https://www.linkedin.com/in/mallorysmith-42/">
                   <img
-                    className="linkedin"
+                    className="linkedin responsive-img"
                     src={Linkedin}
                     alt="linkedin site icon"
-                    height="42"
-                    width="42"
                   />
                 </a>
               </li>
@@ -41,11 +37,9 @@ class Footer extends Component {
               <li>
                 <a href="https://www.codewars.com/dashboard">
                   <img
-                    className="codewars"
+                    className="codewars responsive-img"
                     src={CodeWars}
                     alt="codewars site icon"
-                    height="42"
-                    width="42"
                   />
                 </a>
               </li>

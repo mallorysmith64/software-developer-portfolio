@@ -6,7 +6,7 @@ const images = [
     "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/1f/10/89/1f1089e7-6b38-1f9f-c679-7c78c696995a/contsched.voboeuui.lsr/1280x768bb.png",
     "https://ih1.redbubble.net/image.836892656.7935/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg",
     "https://coda.newjobs.com/api/imagesproxy/ms/niche/images/can/film.jpg",
-    "https://previews.123rf.com/images/styleuneed/styleuneed1206/styleuneed120600111/13915155-tic-tac-toe-symbol.jpg"
+    "https://cdn.shopify.com/s/files/1/1570/2069/products/tictac_1024x.jpg?v=1573322986"
 ]
 
 const Carousel = () => {
@@ -31,6 +31,7 @@ useEffect(() => {
             background: "black",
             height: "80vh",
             width: "100vw"
+            // className:"responsive-img"
           }}
             index={imageIndex}
             onRequestChange={i => {

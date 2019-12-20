@@ -8,11 +8,9 @@ class About extends Component {
       <div className="about-me">
         <section className="profile-pic-container">
         <img
-          className="img-style"
+          className="img-style responsive-img"
           src={ProfilePic}
           alt="Mallory Smith's profile"
-          height="200"
-          width="200"
         />
         </section>
 

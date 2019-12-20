@@ -25,8 +25,7 @@ class MyWork extends Component {
             <img
               src={Reddit}
               alt="Reddit Clone project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
             <article className="after-collapse">
@@ -45,8 +44,7 @@ class MyWork extends Component {
             <img
               src={SpaceX}
               alt="SpaceX project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
           <article className="after-collapse">
@@ -64,8 +62,7 @@ class MyWork extends Component {
             <img
               src={Octodex}
               alt="Octodex project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
           <article className="after-collapse">
@@ -86,8 +83,7 @@ class MyWork extends Component {
             <img
               src={Minesweeper}
               alt="Minesweeper project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
           <article className="after-collapse">
@@ -107,8 +103,7 @@ class MyWork extends Component {
             <img
               src={TV}
               alt="TV guide project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
           <article className="after-collapse">
@@ -130,8 +125,7 @@ class MyWork extends Component {
             <img
               src={TicTacToe}
               alt="Minimalist Tic-Tac-Toe project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
           <article className="after-collapse">
