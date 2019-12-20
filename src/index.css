@@ -102,6 +102,11 @@ ul {
   padding-left:2em;
 }
 
+#reddit-collapsible,
+#tv-guide-collapsible {
+  width:83%;
+}
+
 .project {
   font-size:2em;
 }
@@ -125,7 +130,7 @@ ul {
   background-color: black;
   color:yellow;
   font-size:0.8em;
-  width:80%;
+  /* width:80%; */
 }
 
 .photos-container {
@@ -158,14 +163,13 @@ ul {
   list-style: none;
   background-color: var(--brown);
   padding: 2em;
-  color: rgb(233, 223, 223);
+  color: rgb(233, 221, 221);
 }
 
 .about-container {
   display:flex;
   flex-direction: column;
   padding-left:2em;
-  line-height: 0.5em;
 }
 
 .download-resume {

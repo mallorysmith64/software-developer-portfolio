@@ -28,7 +28,7 @@ class MyWork extends Component {
               className="responsive-img"
             />
           </section>
-            <article className="after-collapse">
+            <article className="after-collapse" id="reddit-collapsible">
               <Collapsible className="before-collapse" trigger="Read More">
               <p>This full-stack app recreates the look and feel of Reddit.</p>
               <p>Features Included: Users can login and logout using Auth0 and see their profile, they can make new posts to the homepage and to a subreddit, and they can upvote and downvote posts created.</p>
@@ -106,7 +106,7 @@ class MyWork extends Component {
               className="responsive-img"
             />
           </section>
-          <article className="after-collapse">
+          <article className="after-collapse" id="tv-guide-collapsible">
               <Collapsible className="before-collapse" trigger="Read More">
                 <p>Objective: 
                   Make an attractive design for a tv guide 
