@@ -2,12 +2,19 @@ import React, { useState, useEffect } from 'react'
 import {Gallery, GalleryImage} from 'react-gesture-gallery'
 
 const images = [
-    "https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_1600,c_limit/reddit-alien-red-st.jpg",
-    "https://blog.kevinlisota.photography/app/uploads/2018/09/20180206_falcon_heavy_launch_323.jpg",
-    "https://ih1.redbubble.net/image.836892656.7935/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg",
+    // reddit
+    "https://media.wired.com/photos/5abece0a9ccf76090d775185/master/pass/hangoutsscreen_2.jpg",
+    // spaceX
+    "https://media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-04/B4378357-9066-4F7A-8EFD-706EC464A684.jpg?itok=30cfdSJh",
+    // github
+    "https://www.leanrob.com/img/github-logo-with-text.10e0d140.png",
+    // minesweeper
     "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/1f/10/89/1f1089e7-6b38-1f9f-c679-7c78c696995a/contsched.voboeuui.lsr/1280x768bb.png",
-    "https://coda.newjobs.com/api/imagesproxy/ms/niche/images/can/film.jpg",
-    "https://cdn.shopify.com/s/files/1/1570/2069/products/tictac_1024x.jpg?v=1573322986",
+    // tv guide
+    "http://colourmenina.ca/wordpress/wp-content/uploads/2018/03/toptvshows.png",
+    // tic-tac-toe
+    "https://images-na.ssl-images-amazon.com/images/I/61kjGo7vPtL._SL1500_.jpg",
+    // tetris
     "https://wallpapercave.com/wp/wp2675354.jpg"
 ]
 
