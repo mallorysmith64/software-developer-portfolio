@@ -7,6 +7,7 @@ import Octodex from './images/octodex_screenshot.png'
 import Minesweeper from './images/minesweeper_screenshot.png'
 import TV from './images/tv_guide_screenshot.png'
 import TicTacToe from './images/tic_tac_toe_screenshot.png'
+import Tetris from './images/tetris_screenshot.png'
 
 class MyWork extends Component {
   render() {
@@ -138,26 +139,26 @@ class MyWork extends Component {
         </div>
   </div>  
 
-{/* tetris deluxe project will go here when done */}
-        {/* <div className="row">
+        {/* <div className="row"> */}
         <div className="project" id="tetris-project">
-        <a href="" id="tetris-title">Tetris</a>
+        <a href="https://tetris-deluxe-mallorysmith64.netlify.com/" id="tetris-title">Tetris Deluxe</a>
           <section className="img-style">
             <img
               src={Tetris}
               alt="Tetris project overview"
-              height="400"
-              width="300"
+              className="responsive-img"
             />
           </section>
-          <article className="after-collapse">
+          <article className="after-collapse" id="tetris-collapsible">
               <Collapsible className="before-collapse" trigger="Read More">
-              <a href="">Tetris Code</a>
+                <p>Objective: Create tetris and add audio and css animations for a better user experience</p>
+                <p>Tetris Deluxe is currently being developed.</p>
+                <p>Technologies Used: React.js, React Styled Components, Netlify</p>
+              <a href="https://github.com/mallorysmith64/tetris-deluxe">Tetris Deluxe Code</a>
               </Collapsible>
           </article>
         </div>
-      </div> */}
-
+      {/* </div> */}
 
         </main>
       </>
