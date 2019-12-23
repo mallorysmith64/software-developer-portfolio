@@ -80,18 +80,24 @@ class About extends Component {
           <h5>Frameworks & Libraries</h5>
 
           <h6 className="skill-icon">
-          <img className="logo" src={react} alt="React.js logo"/>
-          <li>React.js</li>
+            <a href="https://en.wikipedia.org/wiki/React_(web_framework)">
+              <img className="logo" src={react} alt="React.js logo"/>
+              <li>React.js</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={dotnetcore} alt=".NET Core logo"/>
-          <li>.NET Core</li>
+            <a href="https://en.wikipedia.org/wiki/.NET_Core">
+              <img className="logo" src={dotnetcore} alt=".NET Core logo"/>
+              <li>.NET Core</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={entity} alt="Entity Framework Core logo"/>
-          <li>Entity Framework Core</li>
+            <a href="https://en.wikipedia.org/wiki/Entity_Framework">
+              <img className="logo" src={entity} alt="Entity Framework Core logo"/>
+              <li>Entity Framework Core</li>
+            </a>
           </h6>
         </ul>
       </section>
@@ -101,29 +107,39 @@ class About extends Component {
           <h5>Programming Concepts</h5>
 
         <h6 className="skill-icon">
-          <img className="logo" src={oop} alt="Object Oriented Programming"/>
-          <li>Object Oriented Programming</li>
+            <a href="https://en.wikipedia.org/wiki/Object-oriented_programming">
+              <img className="logo" src={oop} alt="Object Oriented Programming"/>
+              <li>Object Oriented Programming</li>
+            </a>
         </h6>
 
         <h6 className="skill-icon">
-          <img className="logo" src={mvc} alt="Model View Control Diagram"/>
-          <li>Model View Controller (MVC)</li>
+          <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">
+              <img className="logo" src={mvc} alt="Model View Control Diagram"/>
+            <li>Model View Controller (MVC)</li>
+          </a>
         </h6>
 
         <h6 className="skill-icon">
-          <img className="logo" src={api} alt="RESTful api"/>
-          <li>RESTful API</li>
+          <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
+            <img className="logo" src={api} alt="RESTful api"/>
+            <li>RESTful API</li>
+          </a>
         </h6>
 
 
         <h6 className="skill-icon">
-          <img className="logo" src={mobile} alt="mobile first design"/>
-          <li>Mobile First Design</li>
+          <a href="https://en.wikipedia.org/wiki/Responsive_web_design">
+            <img className="logo" src={mobile} alt="mobile first design"/>
+            <li>Mobile First Design</li>
+            </a>
         </h6>
         
         <h6 className="skill-icon">
-          <img className="logo" src={spas} alt="single page application"/>
-          <li>Single Page Apps</li>
+          <a href="https://en.wikipedia.org/wiki/Single-page_application">
+            <img className="logo" src={spas} alt="single page application"/>
+            <li>Single Page Apps</li>
+          </a>
         </h6>
         </ul>
       </section>
@@ -133,28 +149,38 @@ class About extends Component {
           <h5>Software Tools</h5>
 
           <h6 className="skill-icon">
-          <img className="logo" src={vscode} alt="csharp logo"/>
-          <li>VS Code</li>
+            <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">
+              <img className="logo" src={vscode} alt="csharp logo"/>
+              <li>VS Code</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={slack} alt="csharp logo"/>
-          <li>Slack</li>
+            <a href="https://en.wikipedia.org/wiki/Slack_(software)">
+              <img className="logo" src={slack} alt="csharp logo"/>
+              <li>Slack</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={trello} alt="csharp logo"/>
-          <li>Trello</li>
+            <a href="https://en.wikipedia.org/wiki/Trello">
+              <img className="logo" src={trello} alt="csharp logo"/>
+              <li>Trello</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={git} alt="csharp logo"/>
-          <li>Git</li>
+            <a href="https://en.wikipedia.org/wiki/Git">
+              <img className="logo" src={git} alt="csharp logo"/>
+              <li>Git</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={github} alt="csharp logo"/>
-          <li>GitHub</li>
+            <a href="https://en.wikipedia.org/wiki/GitHub">
+              <img className="logo" src={github} alt="csharp logo"/>
+              <li>GitHub</li>
+            </a>
           </h6>
         </ul>
       </section>
@@ -178,16 +204,21 @@ class About extends Component {
           </h6>
 
           <h6 className="skill-icon">
+            <a href="https://en.wikipedia.org/wiki/Netlify">
           <img className="logo" src={netlify} alt="csharp logo"/>
             <li>Netlify</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={heroku} alt="csharp logo"/>
-            <li>Heroku</li>
+            <a href="https://en.wikipedia.org/wiki/Heroku">
+              <img className="logo" src={heroku} alt="csharp logo"/>
+              <li>Heroku</li>
+            </a>
           </h6>
         </ul>
       </section>
+      
     </div>
       </>
     )
