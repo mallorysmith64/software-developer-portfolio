@@ -14,6 +14,7 @@ class Form extends React.Component {
     return (
       <form
         className="contact-form"
+        id="contact"
         onSubmit={this.submitForm}
         action="https://formspree.io/xzbdbdkj"
         method="POST"

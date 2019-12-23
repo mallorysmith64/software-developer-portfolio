@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <>
-      <div className="about-me">
+      <div className="about-me" id="about">
         <section className="profile-pic-container">
         <img
           className="img-style responsive-img"

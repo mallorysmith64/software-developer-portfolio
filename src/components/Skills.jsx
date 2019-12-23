@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <>
-      <div className="skill-container">
+      <div className="skill-container" id="skills">
 
       <section className="language-container">
         <ul className="languages">

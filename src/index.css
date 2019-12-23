@@ -1,6 +1,5 @@
 :root {
   font: 16px / 1 sans-serif;
-  --nav-color: rgb(2, 0, 0);
   --main-color: #ebf0ea;
   --lighter-color: #f0f7ee;
   --darker-color: #363946;
@@ -16,19 +15,14 @@ body {
   min-height: 100%;
 }
 
-.nav {
+nav {
   position:relative;
-  background-color: var(--nav-color);
+  background-color: black;
   color: var(--lighter-color);
 }
 
 ul {
   list-style: none;
-}
-
-.main-menu-right {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .overlay {

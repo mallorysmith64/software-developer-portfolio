@@ -13,7 +13,7 @@ class MyWork extends Component {
   render() {
     return (
       <>
-        <section className="project-header">
+        <section className="project-header" id="projects">
           <h2>Projects</h2>
         </section>
         
