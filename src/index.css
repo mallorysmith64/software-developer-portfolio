@@ -232,7 +232,7 @@ margin-top:2em;
 .fab-container {
   position:fixed;
   bottom:50px;
-  right:50px;
+  right:20px;
   z-index:999;
   cursor:pointer;
 }
