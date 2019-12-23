@@ -38,23 +38,38 @@ class About extends Component {
           <h5>Languages & Databases</h5>
 
           <h6 className="skill-icon">
-          <img className="logo" src={csharp} alt="csharp logo"/>
+            <a href="https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29">
+              <img className="logo" src={csharp} alt="csharp logo"/>
+              <li>C#</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={javascript} alt="Javascript logo"/>
+            <a href="https://en.wikipedia.org/wiki/JavaScript">
+              <img className="logo" src={javascript} alt="Javascript logo"/>
+              <li>Javascript</li>
+            </a>
           </h6>
           
           <h6 className="skill-icon">
-          <img className="logo" src={postgres} alt="PostgreSQL logo"/>
+            <a href="https://en.wikipedia.org/wiki/PostgreSQL">
+              <img className="logo" src={postgres} alt="PostgreSQL logo"/>
+              <li>PostgreSQL</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
-          <img className="logo" src={css} alt="CSS3 logo"/>
+            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">
+              <img className="logo" src={css} alt="CSS3 logo"/>
+              <li>CSS3</li>
+            </a>
           </h6>
           
           <h6 className="skill-icon">
-          <img className="logo" src={html5} alt="HTML5 logo"/>
+            <a href="https://en.wikipedia.org/wiki/HTML5">
+              <img className="logo" src={html5} alt="HTML5 logo"/>
+              <li>HTML5</li>
+            </a>
           </h6>
           
         </ul>
@@ -66,14 +81,17 @@ class About extends Component {
 
           <h6 className="skill-icon">
           <img className="logo" src={react} alt="React.js logo"/>
+          <li>React.js</li>
           </h6>
 
           <h6 className="skill-icon">
           <img className="logo" src={dotnetcore} alt=".NET Core logo"/>
+          <li>.NET Core</li>
           </h6>
 
           <h6 className="skill-icon">
           <img className="logo" src={entity} alt="Entity Framework Core logo"/>
+          <li>Entity Framework Core</li>
           </h6>
         </ul>
       </section>
@@ -146,13 +164,17 @@ class About extends Component {
           <h5>Deployment Environments</h5>
 
           <h6 className="skill-icon">
+            <a href="https://en.wikipedia.org/wiki/Docker_%28software%29">
           <img className="logo" src={docker} alt="csharp logo"/>
             <li>Docker</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">
+            <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services">
           <img className="logo" src={aws} alt="csharp logo"/>
             <li>AWS</li>
+            </a>
           </h6>
 
           <h6 className="skill-icon">

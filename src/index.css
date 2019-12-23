@@ -163,6 +163,10 @@ ul {
   height:6em;
 }
 
+a {
+  color:darkblue;
+}
+
 .language-container,
 .framework-and-library-container, 
 .concept-container,
