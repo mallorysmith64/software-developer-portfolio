@@ -157,6 +157,12 @@ ul {
   padding-left:2em;
 }
 
+.logo {
+  padding:1em;
+  width:6em;
+  height:6em;
+}
+
 .language-container,
 .framework-and-library-container, 
 .concept-container,
