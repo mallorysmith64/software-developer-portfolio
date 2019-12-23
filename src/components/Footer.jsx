@@ -15,7 +15,7 @@ class Footer extends Component {
             <ul className="footer-link-container">
 
               <li>
-                <a href="https://github.com/mallorysmith64?tab=repositories">
+                <a href="https://github.com/mallorysmith64">
                 <img
                     className="github responsive-img"
                     src={GitHub}
@@ -25,7 +25,7 @@ class Footer extends Component {
               </li>
 
               <li>
-                <a href="https://www.linkedin.com/in/mallorysmith-42/">
+                <a href="https://www.linkedin.com/in/mallorysmith-64/">
                   <img
                     className="linkedin responsive-img"
                     src={Linkedin}

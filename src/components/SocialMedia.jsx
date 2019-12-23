@@ -1,25 +1,41 @@
 import React from 'react'
+// import CodeWars from './images/codewars_icon.jpeg'
+import Linkedin from './images/linkedin_icon.png'
+import GitHub from './images/github_icon.png'
 
 const SocialMedia = () => {
      
     return (
         <>
-        <div className="fixed-action-btn hoverEnabled">
-            <a className="btn-floating btn-large" href="# ">
-                <i className="large material-icons white-text">link</i>
-            </a>
+      
+        <div className="fab-container">
+            <div className="fab fab-icon-holder green" id="link-icon">
+                <i className="medium material-icons white-text">link</i>
+            </div>
 
-            <ul className="fab-content">
+            <ul className="fab-options">
                 <li>
-                    <a className="btn-floating white" href="https://github.com/mallorysmith64" target="_blank" rel="noopener noreferrer">
-                        GitHub
-                    </a>
+                <span className="fab-label">GitHub</span>
+                    <div className="fab-icon-holder fab-icon">
+                        <a href="https://github.com/mallorysmith64" target="_blank" rel="noopener noreferrer">
+                        <img
+                        className="github responsive-img"
+                        src={GitHub}
+                        alt="GitHub site icon"/>
+                        </a>
+                    </div>
                 </li>
 
                 <li>
-                    <a className="btn-floating white" href="https://www.linkedin.com/in/mallorysmith64/" target="_blank" rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
+                    <span className="fab-label">LinkedIn</span>
+                    <div className="fab-icon-holder fab-icon">
+                        <a href="https://www.linkedin.com/in/mallorysmith-64/" target="_blank" rel="noopener noreferrer">
+                        <img
+                        className="linkedin responsive-img"
+                        src={Linkedin}
+                        alt="linkedin site icon"/>
+                        </a>
+                    </div>
                 </li>
             </ul>
 

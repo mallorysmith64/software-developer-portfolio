@@ -229,6 +229,73 @@ margin-top:2em;
   width:42px;
 }
 
+.fab-container {
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  z-index:999;
+  cursor:pointer;
+}
+
+
+.fab-icon-holder {
+  width:50px;
+  height:50px;
+  border-radius:100%;
+}
+
+.fab-icon-holder:hover {
+  opacity:0.8;
+}
+
+.fab-icon-holder i {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height:100%;
+  font-size:40px;
+}
+
+.fab-icon {
+  background-color:rgb(37, 215, 137);
+  padding-left:0.3em;
+  padding-top:0.2em;
+}
+
+.fab {
+  width:60px;
+  height:60px;
+}
+
+.fab-options {
+  position:absolute;
+  list-style-type:none;
+  bottom:70px;
+  right:0;
+  opacity:0;
+  margin:0;
+}
+
+.fab-options li {
+  display:flex;
+  justify-content: flex-end;
+  padding:5px;
+}
+
+.fab-label {
+  padding:2px 5px;
+  align-self:center;
+  user-select:none;
+  white-space:nowrap;
+  border-radius:3px;
+  font-size:16px;
+  margin-right:10px;
+}
+
+.fab:hover + .fab-options, .fab-options:hover {
+  opacity:1;
+}
+
 /* iPad Pro */
 @media (max-width: 1024px) and (max-height:1366px) {
   .overlay {

@@ -12,13 +12,13 @@ class App extends Component {
   render() {
     return (
       <>
-        <SocialMedia/>
         <Nav />
         <Carousel/>
         <MyWork />
         <Skills/>
         <About />
         <Form/>
+        <SocialMedia/>
         <Footer />
       </>
     )
