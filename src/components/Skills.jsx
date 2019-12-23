@@ -10,11 +10,22 @@ import react from './images/react_js_logo.png'
 import dotnetcore from './images/dotnetcore_logo.png'
 import entity from './images/entity_framework_logo.png'
 
-import oop from './images/oop.jpeg'
+import oop from './images/oop.png'
 import mvc from './images/mvc_photo.jpeg'
 import api from './images/restful_api.png'
 import mobile from './images/mobile_first_design.png'
 import spas from './images/single_page_apps.png'
+
+import vscode from './images/vs_code.svg'
+import slack from './images/slack.png'
+import trello from './images/trello.png'
+import git from './images/git.png'
+import github from './images/github.png'
+
+import docker from './images/docker.png'
+import aws from './images/aws_logo.png'
+import netlify from './images/netlify_logo.jpeg'
+import heroku from './images/heroku_logo.png'
 
 class About extends Component {
   render() {
@@ -102,21 +113,57 @@ class About extends Component {
       <section className="software-tool-container">
         <ul className="software-tools">
           <h5>Software Tools</h5>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={vscode} alt="csharp logo"/>
           <li>VS Code</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={slack} alt="csharp logo"/>
           <li>Slack</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={trello} alt="csharp logo"/>
           <li>Trello</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={git} alt="csharp logo"/>
           <li>Git</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={github} alt="csharp logo"/>
           <li>GitHub</li>
+          </h6>
         </ul>
       </section>
 
       <section className="deployment-environment-container">
         <ul className="deployment-environments">
           <h5>Deployment Environments</h5>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={docker} alt="csharp logo"/>
             <li>Docker</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={aws} alt="csharp logo"/>
             <li>AWS</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={netlify} alt="csharp logo"/>
             <li>Netlify</li>
+          </h6>
+
+          <h6 className="skill-icon">
+          <img className="logo" src={heroku} alt="csharp logo"/>
             <li>Heroku</li>
+          </h6>
         </ul>
       </section>
     </div>
