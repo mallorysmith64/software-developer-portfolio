@@ -170,10 +170,13 @@ a {
 .language-container,
 .framework-and-library-container, 
 .concept-container,
-.software-tool-container, 
-.deployment-environment-container {
+.software-tool-container {
   position:relative;
   padding-left:2em;
+}
+
+.deployment-environment-container {
+  padding-left:4em;
 }
 
 .about-me {
