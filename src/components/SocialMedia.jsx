@@ -1,5 +1,5 @@
 import React from 'react'
-// import CodeWars from './images/codewars_icon.jpeg'
+import Codewars from './images/codewars_logo.png'
 import Linkedin from './images/linkedin_icon.png'
 import GitHub from './images/github_icon.png'
 
@@ -14,26 +14,35 @@ const SocialMedia = () => {
             </div>
 
             <ul className="fab-options">
-                <li>
-                <span className="fab-label">GitHub</span>
+                <li><span className="fab-label">GitHub</span>
                     <div className="fab-icon-holder fab-icon">
                         <a href="https://github.com/mallorysmith64" target="_blank" rel="noopener noreferrer">
                         <img
                         className="github responsive-img"
                         src={GitHub}
-                        alt="GitHub site icon"/>
+                        alt="hyperlink to GitHub"/>
                         </a>
                     </div>
                 </li>
 
-                <li>
-                    <span className="fab-label">LinkedIn</span>
+                <li><span className="fab-label">LinkedIn</span>
                     <div className="fab-icon-holder fab-icon">
                         <a href="https://www.linkedin.com/in/mallorysmith-64/" target="_blank" rel="noopener noreferrer">
                         <img
                         className="linkedin responsive-img"
                         src={Linkedin}
-                        alt="linkedin site icon"/>
+                        alt="hyperlink to Linkedin"/>
+                        </a>
+                    </div>
+                </li>
+
+                <li><span className="fab-label">Codewars</span>
+                    <div className="fab-icon-holder fab-icon">
+                        <a href="https://www.linkedin.com/in/mallorysmith-64/" target="_blank" rel="noopener noreferrer">
+                        <img
+                        className="linkedin responsive-img"
+                        src={Codewars}
+                        alt="hyperlink to Codewars"/>
                         </a>
                     </div>
                 </li>

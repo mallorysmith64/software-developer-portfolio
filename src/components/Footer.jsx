@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CodeWars from './images/codewars_icon.jpeg'
+import CodeWars from './images/codewars_logo.png'
 import Linkedin from './images/linkedin_icon.png'
 import GitHub from './images/github_icon.png'
 

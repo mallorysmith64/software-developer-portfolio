@@ -240,6 +240,7 @@ margin-top:2em;
   padding-right: 0.4em;
   height:42px;
   width:42px;
+  border-radius:0.9em;
 }
 
 .fab-container {
@@ -303,6 +304,10 @@ margin-top:2em;
   border-radius:3px;
   font-size:16px;
   margin-right:10px;
+}
+
+.fab-label:hover {
+  font-weight:bold;
 }
 
 .fab:hover + .fab-options, .fab-options:hover {
