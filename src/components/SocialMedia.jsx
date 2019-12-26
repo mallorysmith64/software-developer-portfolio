@@ -38,9 +38,9 @@ const SocialMedia = () => {
 
                 <li><span className="fab-label">Codewars</span>
                     <div className="fab-icon-holder fab-icon">
-                        <a href="https://www.linkedin.com/in/mallorysmith-64/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.codewars.com/users/mallorysmith64" target="_blank" rel="noopener noreferrer">
                         <img
-                        className="linkedin responsive-img"
+                        className="codewars responsive-img"
                         src={Codewars}
                         alt="hyperlink to Codewars"/>
                         </a>
