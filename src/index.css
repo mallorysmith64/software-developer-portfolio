@@ -71,6 +71,7 @@ ul {
   padding-right:2em;
 }
 
+
 #tetris-project {
   display:flex;
   flex-direction:column;
@@ -418,7 +419,15 @@ margin-top:2em;
   }
 
   #tic-tac-toe-project {
-    padding:2em 2em 2em 2em;
+    padding:0em 2em 2em 2em;
+  }
+
+  #tv-guide-project {
+    padding:0em 2em 2em 2em;
+  }
+
+  #tetris-project {
+    padding-right:14em;
   }
 
   .skill-container {

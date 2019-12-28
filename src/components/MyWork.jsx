@@ -38,7 +38,9 @@ class MyWork extends Component {
               </Collapsible>
             </article>
           </div>
+        </div>
 
+      <div className="row">
         <div className="project" id="spacex-project">
         <a href="https://space-x-mallorysmith64.netlify.com/" id="spacex-title">SpaceX</a>
           <section className="img-style">
@@ -56,7 +58,9 @@ class MyWork extends Component {
               </Collapsible>
             </article>
         </div>
+      </div>
 
+      <div className="row">
         <div className="project" id="octodex-project">
         <a href="https://octodex-mallorysmith64.netlify.com/" id="octodex-title">Octodex</a>
           <section className="img-style">
@@ -70,7 +74,7 @@ class MyWork extends Component {
               <Collapsible className="before-collapse" trigger="Read More">
                 <p>Objective: Remake GitHub’s Octodex site</p>
                 <p>Technologies Used: React.js, Netlify, Bulma CSS Framework, CSS Flexbox, HTML5</p>
-              <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
+                <a href="https://github.com/mallorysmith64/space-x">Octodex Code</a>
               </Collapsible>
             </article>
         </div>
@@ -93,11 +97,13 @@ class MyWork extends Component {
                   display a message to show player they won or lost, 
                   and allow user to play multiple difficulty levels.</p>
                 <p>React.js, Netlify, CSS Flexbox, HTML5</p>
-              <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
+                <a href="https://github.com/mallorysmith64/minesweeper">Minesweeper Code</a>
               </Collapsible>
           </article>
         </div>
+      </div>
 
+      <div className="row">
         <div className="project" id="tv-guide-project">
         <a href="https://tv-guide-mallorysmith64.netlify.com/" id="tv-guide-title">TV Guide</a>
           <section className="img-style">
@@ -115,11 +121,13 @@ class MyWork extends Component {
                   a highlighted random show at the top of the page, 
                   and details for cast members.</p>
                 <p>Technologies Used: React.js, Netlify, CSS Flexbox, HTML5</p>
-              <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
+                <a href="https://github.com/mallorysmith64/tv-guide">TV Guide Code</a>
               </Collapsible>
             </article>
         </div>
+      </div>
 
+      <div className="row">
         <div className="project" id="tic-tac-toe-project">
         <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-title">Tic-Tac-Toe</a>
           <section className="img-style">
@@ -133,7 +141,7 @@ class MyWork extends Component {
               <Collapsible className="before-collapse" trigger="Read More">
                 <p>Objective: Create a sleek design for a great game</p>
                 <p>Technologies Used: React.js, Netlify, CSS Flexbox, HTML5</p>
-              <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
+                <a href="https://github.com/mallorysmith64/minimalist-tic-tac-toe">Minimalist Tic-Tac-Toe Code</a>
               </Collapsible>
             </article>
         </div>
@@ -154,7 +162,7 @@ class MyWork extends Component {
                 <p>Objective: Create tetris and add audio and css animations for a better user experience</p>
                 <p>Tetris Deluxe is currently being developed.</p>
                 <p>Technologies Used: React.js, React Styled Components, Netlify</p>
-              <a href="https://github.com/mallorysmith64/tetris-deluxe">Tetris Deluxe Code</a>
+                <a href="https://github.com/mallorysmith64/tetris-deluxe">Tetris Deluxe Code</a>
               </Collapsible>
           </article>
         </div>
