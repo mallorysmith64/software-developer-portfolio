@@ -38,9 +38,7 @@ class MyWork extends Component {
               </Collapsible>
             </article>
           </div>
-        </div>
 
-      <div className="row">
         <div className="project" id="spacex-project">
         <a href="https://space-x-mallorysmith64.netlify.com/" id="spacex-title">SpaceX</a>
           <section className="img-style">
@@ -58,9 +56,7 @@ class MyWork extends Component {
               </Collapsible>
             </article>
         </div>
-      </div>
 
-      <div className="row">
         <div className="project" id="octodex-project">
         <a href="https://octodex-mallorysmith64.netlify.com/" id="octodex-title">Octodex</a>
           <section className="img-style">
@@ -101,9 +97,7 @@ class MyWork extends Component {
               </Collapsible>
           </article>
         </div>
-      </div>
 
-      <div className="row">
         <div className="project" id="tv-guide-project">
         <a href="https://tv-guide-mallorysmith64.netlify.com/" id="tv-guide-title">TV Guide</a>
           <section className="img-style">
@@ -125,9 +119,7 @@ class MyWork extends Component {
               </Collapsible>
             </article>
         </div>
-      </div>
 
-      <div className="row">
         <div className="project" id="tic-tac-toe-project">
         <a href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/" id="tic-tac-toe-title">Tic-Tac-Toe</a>
           <section className="img-style">
