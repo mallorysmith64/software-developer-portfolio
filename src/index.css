@@ -31,7 +31,7 @@ ul {
   width:79em;
 }
 
-.project-header {
+.project-header,.skill-header {
   font-family: 'Milonga', cursive;
   text-align: center;
   padding: 1em 1em 0.2em 1em;
@@ -152,6 +152,10 @@ ul {
   text-align:center;
   background-color: #5C7E58;
   padding:2em;
+}
+
+.skill-header {
+  background-color:#7B9169;
 }
 
 .skill-container {
