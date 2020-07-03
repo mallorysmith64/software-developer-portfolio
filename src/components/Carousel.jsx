@@ -13,9 +13,9 @@ const images = [
   // tv guide
   "http://colourmenina.ca/wordpress/wp-content/uploads/2018/03/toptvshows.png",
   // tic-tac-toe
-  "https://images-na.ssl-images-amazon.com/images/I/61kjGo7vPtL._SL1500_.jpg",
+  "https://images-na.ssl-images-amazon.com/images/I/61kjGo7vPtL._SL1500_.jpg"
   // tetris
-  "https://wallpapercave.com/wp/wp2675354.jpg",
+  // "https://wallpapercave.com/wp/wp2675354.jpg",
 ];
 
 const Carousel = () => {
