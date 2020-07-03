@@ -9,7 +9,7 @@
     "setup-deploy": "app-app --deploy && yarn deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postdeploy": "echo 'Your site was deployed to https://my-portfolio-mallorysmith64.netlify.com'"
+    "postdeploy": "echo 'Your site was deployed to https://mallorysmith.me'"
   },
   "browserslist": [
     ">0.2%",
@@ -36,5 +36,5 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.1.1"
   },
-  "homepage": "https://my-portfolio-mallorysmith64.netlify.com"
+  "homepage": "https://mallorysmith.me"
 }
