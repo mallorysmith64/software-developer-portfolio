@@ -30,7 +30,7 @@ class About extends Component {
             <h5>Where I Want To Go</h5>
             <p>
               1) I am currently working on earning my AWS associate developer
-              certification.{" "}
+              certification.
             </p>
             <p>2) I want to build more projects in C# and javascript.</p>
             <p>

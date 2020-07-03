@@ -28,7 +28,7 @@ const Carousel = () => {
       } else {
         setImageIndex((prev) => prev + 1);
       }
-    }, 9000);
+    }, 10000);
     return () => clearInterval(timer);
   }, [imageIndex]);
 

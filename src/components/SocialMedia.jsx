@@ -13,7 +13,7 @@ const SocialMedia = () => {
 
         <ul className="fab-options">
           <li>
-            <span className="fab-label">GitHub</span>
+            <span className="fab-label"></span>
             <div className="fab-icon-holder fab-icon">
               <a
                 href="https://github.com/mallorysmith64"
@@ -30,7 +30,7 @@ const SocialMedia = () => {
           </li>
 
           <li>
-            <span className="fab-label">LinkedIn</span>
+            <span className="fab-label"></span>
             <div className="fab-icon-holder fab-icon">
               <a
                 href="https://www.linkedin.com/in/mallorysmith-64/"
@@ -47,7 +47,7 @@ const SocialMedia = () => {
           </li>
 
           <li>
-            <span className="fab-label">Codewars</span>
+            <span className="fab-label"></span>
             <div className="fab-icon-holder fab-icon">
               <a
                 href="https://www.codewars.com/users/mallorysmith64"

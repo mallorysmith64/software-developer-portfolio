@@ -31,8 +31,8 @@ class About extends Component {
   render() {
     return (
       <>
-        <header className="skill-header">
-          <h2>Skills</h2>
+        <header className="header">
+          <h2>Skills and Interests</h2>
         </header>
 
         <div className="skill-container" id="skills">

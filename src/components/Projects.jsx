@@ -13,7 +13,7 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <section className="project-header" id="projects"> 
+        <section className="header" id="projects"> 
         {/* the id is used for breadcrumb */}
           <h2>Projects</h2>
         </section>
