@@ -15,8 +15,8 @@ class App extends Component {
       <>
         <Nav />
         <Carousel/>
-        <Work/>
         <Projects />
+        <Work/>
         <Skills/>
         <About />
         <Form/>

@@ -7,7 +7,7 @@ import Octodex from './images/octodex_screenshot.png'
 import Minesweeper from './images/minesweeper_screenshot.png'
 import TV from './images/tv_guide_screenshot.png'
 import TicTacToe from './images/tic_tac_toe_screenshot.png'
-import Tetris from './images/tetris_screenshot.png'
+// import Tetris from './images/tetris_screenshot.png'
 
 class Projects extends Component {
   render() {
@@ -139,8 +139,7 @@ class Projects extends Component {
         </div>
   </div>  
 
-        {/* <div className="row"> */}
-        <div className="project" id="tetris-project">
+        {/* <div className="project" id="tetris-project">
         <a href="https://tetris-deluxe-mallorysmith64.netlify.com/" id="tetris-title">Tetris Deluxe</a>
           <section className="img-style">
             <img
@@ -157,8 +156,7 @@ class Projects extends Component {
                 <a href="https://github.com/mallorysmith64/tetris-deluxe">Tetris Deluxe Code</a>
               </Collapsible>
           </article>
-        </div>
-      {/* </div> */}
+        </div> */}
 
         </main>
       </>

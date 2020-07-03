@@ -4,7 +4,6 @@ class Nav extends Component {
   render() {
     return (
       <>
-      {/* todo: make breadcrumbs for projects, skills, about me, and contact sections */}
         <nav className="navbar">
          
           <ul className="right">

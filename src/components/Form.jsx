@@ -6,7 +6,7 @@ class Form extends React.Component {
     this.submitForm = this.submitForm.bind(this);
     this.state = {
       status: ""
-    };
+    }
   }
 
   render() {

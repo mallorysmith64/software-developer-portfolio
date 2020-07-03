@@ -58,7 +58,6 @@ ul {
   padding-right:2em;
 }
 
-
 #minesweeper-project {
   padding-left:2em;
 }
@@ -71,13 +70,11 @@ ul {
   padding-right:2em;
 }
 
-
 #tetris-project {
   display:flex;
   flex-direction:column;
   padding-left:13.9em;
 }
-
 
 #reddit-title {
   padding:1em;
@@ -116,7 +113,6 @@ ul {
   width:42%;
 }
 
-
 .project {
   font-size:2em;
 }
@@ -149,6 +145,13 @@ ul {
   flex-wrap: wrap;
   list-style: none;
   padding: 2em;
+}
+
+/* work section */
+.work-container {
+  text-align:center;
+  background-color: #5C7E58;
+  padding:2em;
 }
 
 .skill-container {
