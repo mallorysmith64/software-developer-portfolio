@@ -23,12 +23,12 @@ const Carousel = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      if (imageIndex === 6) {
+      if (imageIndex === 5) {
         setImageIndex(0);
       } else {
         setImageIndex((prev) => prev + 1);
       }
-    }, 10000);
+    }, 120000); //2 minutes
     return () => clearInterval(timer);
   }, [imageIndex]);
 

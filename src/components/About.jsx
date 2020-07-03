@@ -17,30 +17,25 @@ class About extends Component {
           <section className="about-container">
             <h5>Who I Am</h5>
             <p>
-              I am a passionate web developer and an alumni from a fully
-              immersive coding bootcamp, Suncoast Developers Guild.
+              I am a passionate software developer from The Sunshine
+              State, FL.
             </p>
 
             <h5>What Motivates Me</h5>
             <p>
               What motivates me the most is the satisfaction that comes with
-              problem solving and creating projects.
+              problem solving and creating new projects.
             </p>
 
-            <h5>Where I Want To Go</h5>
+            {/* <h5>Where I Want To Go</h5>
             <p>
-              1) I am currently working on earning my AWS associate developer
-              certification.
+              1) I am currently learning C.
             </p>
-            <p>2) I want to build more projects in C# and javascript.</p>
+
             <p>
-              3) I am currently learning python and would like to start building
-              in that language, as well.
-            </p>
-            <p>
-              4) 5 years from now, I want to be able to teach others what I have
-              learned.
-            </p>
+              2) 
+            </p> */}
+
           </section>
         </div>
       </>
