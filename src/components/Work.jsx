@@ -13,36 +13,44 @@ function Work() {
   return (
     <>
       <section className="work-container">
-        <header className="header" id="work">
+        <header className="header">
           <h2>Work Experience</h2>
         </header>
 
-        <div className="work-history" id="work">
-          <section className="work">
-            <h5>Cloud Integration Developer</h5>
-            <h5>United Techno</h5>
+        <section className="work-history">
+      
+          <h5>Software Developer</h5>
+          <h5>United Techno</h5>
 
-            <h5>Jan. 2020 - Present {timeDif} months</h5>
-            <p>
-              - I built integrations on the Dell Boomi
-              atmosphere platform.
-            </p>
-            <p>
-              - I provided production support and responded to clients.
-            </p>
-            <p>
-              - I earned 5 Dell Boomi certifications for this position.
-            </p>
-          </section>
+          <h5>Jan. 2020 - Present {timeDif} months</h5>
 
-          <section className="work-logo">
-            <img
-              className="img-style responsive-img"
-              src={UT}
-              alt="United Techno logo"
-            />
-          </section>
-        </div>
+          <img
+            className="work-logo responsive-img"
+            src={UT}
+            alt="United Techno logo"
+          />
+
+          <ul>
+            <li>
+              Fulfilled business objectives for B2B and B2C integrations via
+              requirement gathering, design, development, testing, debugging,
+              post-mortems, and root-cause analysis or RCA
+            </li>
+
+            <li>
+              Led and supported team during production support and operational
+              monitoring
+            </li>
+
+            <li> Experience with Software Development Life Cycle (SDLC)</li>
+
+            <li> Wrote API and process documentation</li>
+
+            <li> Wrote reports for clients using Excel and Google Sheets</li>
+
+            <li>Earned numerous Dell Boomi certifications for this position</li>
+          </ul>
+        </section>
       </section>
     </>
   );
