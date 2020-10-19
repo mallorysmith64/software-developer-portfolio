@@ -17,40 +17,43 @@ function Work() {
           <h2>Work Experience</h2>
         </header>
 
-        <section className="work-history">
-      
-          <h5>Software Developer</h5>
-          <h5>United Techno</h5>
+        <article className="work-history-container">
+          <section className="work-history-header">
+            <h5>Software Developer</h5>
+            <h5>United Techno</h5>
+            <h5>Jan. 2020 - Present {timeDif} months</h5>
 
-          <h5>Jan. 2020 - Present {timeDif} months</h5>
-
-          <img
-            className="work-logo responsive-img"
-            src={UT}
-            alt="United Techno logo"
-          />
-
-          <ul>
-            <li>
-              Fulfilled business objectives for B2B and B2C integrations via
-              requirement gathering, design, development, testing, debugging,
-              post-mortems, and root-cause analysis or RCA
+            
+            <ul className="work-accomplishments">
+            <li className="work-list">
+              Fulfilled business objectives for B2B and B2C integrations
             </li>
 
-            <li>
-              Led and supported team during production support and operational
+            <li className="work-list">
+              Led and supported a team during production support and operational
               monitoring
             </li>
 
-            <li> Experience with Software Development Life Cycle (SDLC)</li>
+            <li className="work-list"> Experience with the Software Development Life Cycle (SDLC)</li>
 
-            <li> Wrote API and process documentation</li>
+            <li className="work-list"> Wrote API and process documentation</li>
 
-            <li> Wrote reports for clients using Excel and Google Sheets</li>
+            <li className="work-list"> Wrote reports for clients using Excel and Google Sheets</li>
 
-            <li>Earned numerous Dell Boomi certifications for this position</li>
+            <li className="work-list">Earned numerous Dell Boomi certifications for this position</li>
           </ul>
-        </section>
+          </section>
+
+          <div className="work-logo-container">
+            <img
+              className="work-logo responsive-img"
+              src={UT}
+              alt="United Techno logo"
+            />
+          </div>
+
+          
+        </article>
       </section>
     </>
   );

@@ -21,9 +21,9 @@ nav {
   color: var(--lighter-color);
 }
 
-ul {
+/* ul {
   list-style: none;
-}
+} */
 
 .overlay {
   display: flex;
@@ -153,25 +153,43 @@ ul {
   padding-left: 2em;
 }
 
-/* .work-header {
-  display: flex;
-  /* flex-wrap: wrap; */
+.work-history-container {
+  padding-top: 2em;
+}
 
-.work-history {
+/*left side of work history */
+.work-history-header {
+  padding-left: 4em;
+  height: 3vw;
+  /* width: 25%; */
+}
+
+/*right side of work history */
+.work-logo-container {
   display: flex;
-  flex-direction: column;
-  padding: 2em;
-  /* background-color: var(--main-background); */
+  position: relative;
+  bottom: 4em;
+  padding-right: 11em;
+  justify-content: flex-end;
 }
 
 .work-logo {
-  height: 10em;
-  width: 10em;
+  width: 15em;
+}
+
+.work-accomplishments {
+  padding-top: 2em;
+  list-style-type: circle;
+  margin: 0em;
+}
+
+.work-list {
+  list-style-type: circle !important;
+  font-size: 1.25em;
 }
 
 .skill-container {
   display: flex;
-  /* background-color: #7B9169; */
   background-color: var(--main-background);
   padding: 2em;
   padding-left: 2em;
