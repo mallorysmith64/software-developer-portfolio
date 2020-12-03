@@ -17,8 +17,8 @@ class About extends Component {
           <section className="about-container">
             <h5>Who I Am</h5>
             <p>
-              I am a passionate software developer from The Sunshine
-              State, FL.
+              I'm Mallory Smith, a passionate software developer from Plant
+              City, Florida.
             </p>
 
             <h5>What Motivates Me</h5>
@@ -27,20 +27,17 @@ class About extends Component {
               problem solving and creating new projects.
             </p>
 
-            {/* <h5>Where I Want To Go</h5>
+            <h5>Hobbies</h5>
             <p>
-              1) I am currently learning C.
+              I enjoy practicing yoga, meditation, reading, and writing book
+              reviews.
             </p>
-
-            <p>
-              2) 
-            </p> */}
-
+            
           </section>
         </div>
       </>
-    )
+    );
   }
 }
 
-export default About
+export default About;
