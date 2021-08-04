@@ -2,13 +2,6 @@ import React from "react";
 import UT from "./images/united-techno.png";
 
 function Work() {
-  // const pastDate = new Date("1/23/2020");
-  // const currentDate = new Date();
-  // calculate time at company in months
-  // let timeDif =
-  //   currentDate.getFullYear() * 12 +
-  //   currentDate.getMonth() -
-  //   (pastDate.getFullYear() * 12 + pastDate.getMonth());
 
   return (
     <>
