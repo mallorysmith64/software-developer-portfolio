@@ -1,5 +1,5 @@
 import React from "react";
-import Codewars from "./images/codewars_logo.png";
+// import Codewars from "./images/codewars_logo.png";
 import Linkedin from "./images/linkedin_icon.png";
 import GitHub from "./images/github_icon.png";
 import LeetCode from "./images/leetcode_icon.png"
@@ -47,7 +47,7 @@ const SocialMedia = () => {
             </div>
           </li>
 
-          <li>
+          {/* <li>
             <span className="fab-label"></span>
             <div className="fab-icon-holder fab-icon">
               <a
@@ -62,7 +62,7 @@ const SocialMedia = () => {
                 />
               </a>
             </div>
-          </li>
+          </li> */}
 
           <li>
             <span className="fab-label"></span>

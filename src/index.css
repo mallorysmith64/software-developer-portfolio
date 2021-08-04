@@ -284,8 +284,8 @@ a {
 
 .fab-container {
   position: fixed;
-  bottom: 12px;
-  right: 12px;
+  bottom: 10px;
+  right: 30px;
   z-index: 999;
   cursor: pointer;
 }

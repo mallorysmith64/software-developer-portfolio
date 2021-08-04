@@ -36,21 +36,21 @@ function Footer() {
             </li>
 
             <li>
-              <a href="https://www.codewars.com/dashboard">
-                <img
-                  className="codewars responsive-img"
-                  src={CodeWars}
-                  alt="codewars site icon"
-                />
-              </a>
-            </li>
-
-            <li>
               <a href="https://leetcode.com/mallorysmith64/">
                 <img
                   className="leetcode responsive-img"
                   src={LeetCode}
                   alt="leetcode site icon"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.codewars.com/dashboard">
+                <img
+                  className="codewars responsive-img"
+                  src={CodeWars}
+                  alt="codewars site icon"
                 />
               </a>
             </li>
