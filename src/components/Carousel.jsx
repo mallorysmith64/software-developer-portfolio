@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
-import reddit from "./images/reddit.jpg"
-import spacex from "./images/spacex.jpg"
-import github from "./images/github_photo.png"
-import minesweeper from "./images/minesweeper.png"
-import tv from "./images/tv_guide.jpg"
-import tic_tac_toe from "./images/tic_tac_toe.jpg"
+
+import reddit from "./carousel_images/reddit.jpg"
+import spacex from "./carousel_images/spacex.jpg"
+import github from "./carousel_images/github_photo.png"
+import minesweeper from "./carousel_images/minesweeper.png"
+import tv from "./carousel_images/tv_guide.jpg"
+import tic_tac_toe from "./carousel_images/tic_tac_toe.jpg"
 
 const images = [
   reddit,
