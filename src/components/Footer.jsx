@@ -2,6 +2,7 @@ import React from "react";
 import CodeWars from "./images/codewars_logo.png";
 import Linkedin from "./images/linkedin_icon.png";
 import GitHub from "./images/github_icon.png";
+import LeetCode from "./images/leetcode_icon.png"
 
 function Footer() {
   let getYear = new Date().getFullYear();
@@ -43,6 +44,17 @@ function Footer() {
                 />
               </a>
             </li>
+
+            <li>
+              <a href="https://leetcode.com/mallorysmith64/">
+                <img
+                  className="leetcode responsive-img"
+                  src={LeetCode}
+                  alt="leetcode site icon"
+                />
+              </a>
+            </li>
+
           </ul>
         </section>
       </footer>

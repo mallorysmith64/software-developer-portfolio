@@ -272,7 +272,8 @@ a {
 
 .linkedin,
 .github,
-.codewars {
+.codewars,
+.leetcode {
   position: relative;
   padding: 0.2em;
   padding-right: 0.4em;
