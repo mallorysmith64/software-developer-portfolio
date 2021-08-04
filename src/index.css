@@ -47,6 +47,10 @@ nav {
   flex-direction: row;
 }
 
+.responsive-img {
+  width:12em;
+}
+
 #reddit-project {
   padding-left: 2em;
 }
