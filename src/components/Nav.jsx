@@ -19,6 +19,12 @@ class Nav extends Component {
             </li>
 
             <li>
+              <a className="nav-item js-scroll-trigger" href="#education">
+                Education
+              </a>
+            </li>
+
+            <li>
               <a className="nav-item js-scroll-trigger" href="#skills">
                 Skills
               </a>

@@ -4,7 +4,7 @@ import SDG from "./images/SDG_logo.png";
 function Education() {
   return (
     <>
-      <section className="work-container">
+      <section className="work-container" id="education">
         <header className="header">
           <h2>Education</h2>
         </header>

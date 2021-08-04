@@ -5,7 +5,7 @@ function Work() {
 
   return (
     <>
-      <section className="work-container">
+      <section className="work-container" id="work">
         <header className="header">
           <h2>Work Experience</h2>
         </header>
