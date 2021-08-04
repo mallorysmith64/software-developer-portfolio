@@ -32,7 +32,7 @@ class About extends Component {
               I enjoy practicing yoga, meditation, reading, and writing book
               reviews.
             </p>
-            
+
           </section>
         </div>
       </>
