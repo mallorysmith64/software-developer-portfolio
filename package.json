@@ -26,7 +26,7 @@
     "@babel/helper-call-delegate": "^7.10.4",
     "framework7": "^5.2.0",
     "js-levenshtein": "^1.1.6",
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "netlify-cli": "^2.24.0",
     "react": "^16.13.1",
     "react-collapsible": "^2.6.2",
