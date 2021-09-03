@@ -9,6 +9,10 @@ import About from './components/About.jsx'
 import Form from './components/Form.jsx'
 import Footer from './components/Footer.jsx'
 import SocialMedia from './components/SocialMedia.jsx'
+// google analytics
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-7Q9PR1YE91"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 class App extends Component {
   render() {
