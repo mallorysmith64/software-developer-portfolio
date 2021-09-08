@@ -26,17 +26,12 @@ function Work() {
               </li>
 
               <li className="work-list">
-                {" "}
                 Experience with the Software Development Life Cycle (SDLC)
               </li>
 
-              <li className="work-list">
-                {" "}
-                Wrote API and process documentation
-              </li>
+              <li className="work-list">Wrote API and process documentation</li>
 
               <li className="work-list">
-                {" "}
                 Wrote reports for clients using Excel and Google Sheets
               </li>
 
@@ -47,11 +42,14 @@ function Work() {
           </section>
 
           <div className="work-logo-container">
-            <img
-              className="work-logo responsive-img"
-              src={UT}
-              alt="United Techno logo"
-            />
+            <a href="http://www.unitedtechno.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                className="work-logo responsive-img"
+                src={UT}
+                alt="United Techno logo"
+              />
+            </a>
+
           </div>
         </article>
       </section>

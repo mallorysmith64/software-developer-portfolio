@@ -24,11 +24,17 @@ function Education() {
           </section>
 
           <div className="work-logo-container">
-            <img
-              className="work-logo responsive-img"
-              src={SDG}
-              alt="Suncoast Developers Guild logo"
-            />
+            <a
+              href="https://suncoast.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="work-logo responsive-img"
+                src={SDG}
+                alt="Suncoast Developers Guild logo"
+              />
+            </a>
           </div>
         </article>
       </section>

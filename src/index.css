@@ -21,16 +21,6 @@ nav {
   color: var(--lighter-color);
 }
 
-/* ul {
-  list-style: none;
-} */
-
-.overlay {
-  display: flex;
-  height: 34em;
-  width: 79em;
-}
-
 .about-me-title {
   font-family: "Milonga", cursive;
   text-align: center;
