@@ -31,10 +31,17 @@ nav {
   width: 79em;
 }
 
-.header {
+.about-me-title {
   font-family: "Milonga", cursive;
   text-align: center;
   padding: 1em 1em 0.2em 1em;
+  background-color: var(--brown);
+}
+
+.header {
+  font-family: "Milonga", cursive;
+  text-align: center;
+  padding: 2em 1em 0.2em 1em;
 }
 
 .header,
@@ -242,8 +249,8 @@ a {
 .contact-header {
   display: flex;
   justify-content: center;
+  font-family: "Milonga", cursive;
   background-color: var(--main-color);
-  color: var(--darker-color);
 }
 
 .contact-form {

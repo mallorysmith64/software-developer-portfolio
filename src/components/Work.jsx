@@ -2,7 +2,6 @@ import React from "react";
 import UT from "./images/united-techno.png";
 
 function Work() {
-
   return (
     <>
       <section className="work-container" id="work">

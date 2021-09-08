@@ -15,10 +15,11 @@ function Education() {
             <h5>Suncoast Developers Guild</h5>
 
             <ul className="work-accomplishments">
-            <li className="work-list">3 month immersive coding bootcamp</li>
-              <li className="work-list">Built projects in semantic HTML, CSS, Javascript, React.js,
-                PostgreSQL, C#, and .NET Core</li>
-        
+              <li className="work-list">3 month immersive coding bootcamp</li>
+              <li className="work-list">
+                Built projects in semantic HTML, CSS, Javascript, React.js,
+                PostgreSQL, C#, and .NET Core
+              </li>
             </ul>
           </section>
 

@@ -2,7 +2,7 @@ import React from "react";
 // import Codewars from "./images/codewars_logo.png";
 import Linkedin from "./images/linkedin_icon.png";
 import GitHub from "./images/github_icon.png";
-import LeetCode from "./images/leetcode_icon.png"
+import LeetCode from "./images/leetcode_icon.png";
 
 const SocialMedia = () => {
   return (
@@ -80,11 +80,10 @@ const SocialMedia = () => {
               </a>
             </div>
           </li>
-
         </ul>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SocialMedia
+export default SocialMedia;

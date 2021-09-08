@@ -20,7 +20,7 @@ class Form extends React.Component {
         method="POST"
       >
         <section className="contact-header">
-          <h5>Contact Me</h5>
+          <h2>Contact</h2>
         </section>
 
         <div className="input-field col s6">

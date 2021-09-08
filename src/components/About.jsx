@@ -5,6 +5,10 @@ class About extends Component {
   render() {
     return (
       <>
+        <header className="about-me-title">
+          <h2>About Me</h2>
+        </header>
+
         <div className="about-me" id="about">
           <section className="profile-pic-container">
             <img
@@ -17,8 +21,8 @@ class About extends Component {
           <section className="about-container">
             <h5>Who I Am</h5>
             <p>
-              I'm Mallory Smith, a passionate software developer from Plant
-              City, Florida.
+              I'm Mallory A. Smith, a passionate software developer from the
+              Tampa Bay area.
             </p>
 
             <h5>What Motivates Me</h5>
@@ -32,7 +36,6 @@ class About extends Component {
               I enjoy practicing yoga, meditation, reading, and writing book
               reviews.
             </p>
-
           </section>
         </div>
       </>
