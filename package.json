@@ -38,7 +38,7 @@
     "react-gesture-gallery": "^1.1.0",
     "react-gesture-responder": "^2.1.0",
     "react-router-dom": "^5.2.1",
-    "react-scripts": "^3.1.1"
+    "react-scripts": "^5.0.1"
   },
   "homepage": "https://mallorysmith.me"
 }
