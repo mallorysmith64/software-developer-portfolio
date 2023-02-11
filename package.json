@@ -30,7 +30,7 @@
     "framework7": "^5.2.0",
     "js-levenshtein": "^1.1.6",
     "json": "^10.0.0",
-    "netlify-cli": "^6.8.9",
+    "netlify-cli": "^12.12.0",
     "react": "^16.13.1",
     "react-collapsible": "^2.6.2",
     "react-dom": "^16.9.0",
