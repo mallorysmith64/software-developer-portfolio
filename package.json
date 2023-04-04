@@ -1,0 +1,56 @@
+{
+  "private": true,
+  "name": "my-portfolio",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "watch": "npm-watch",
+    "predeploy": "react-scripts build",
+    "deploy": "netlify deploy --prod --dir=build",
+    "setup-deploy": "app-app --deploy && yarn deploy",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postdeploy": "echo 'Your site was deployed to mallorysmith.me'"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "netlify-cli": "^13.2.2",
+    "npm-watch": "^0.11.0",
+    "prettier": "1.19.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.14.5",
+    "@babel/helper-call-delegate": "^7.10.4",
+    "@babel/helper-define-map": "^7.14.5",
+    "@babel/helper-regex": "^7.10.5",
+    "framework7": "^5.2.0",
+    "js-levenshtein": "^1.1.6",
+    "json": "^10.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.9.0",
+    "react-ga": "^3.3.0",
+    "react-gesture-gallery": "^1.1.0",
+    "react-gesture-responder": "^2.1.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll-up": "^1.4.0",
+    "serve": "^14.2.0"
+  },
+  "homepage": "/"
+}
