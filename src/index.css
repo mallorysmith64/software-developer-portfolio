@@ -404,11 +404,8 @@ textarea {
   }
 }
 
-/*hide go back up btn on smaller screens - blackberry Z30 and other smaller screens*/
+/*blackberry Z30*/
 @media (max-width: 360px) and (max-height: 640px) {
-  .go-back-up-container {
-    display: none;
-  }
   nav {
     padding-left: 1em;
   }
@@ -465,9 +462,6 @@ textarea {
   .profile-pic-container {
     display: none;
   }
-  .go-back-up-container {
-    display: none;
-  }
 }
 
 /* iPhone 12 Pro */
@@ -490,9 +484,6 @@ textarea {
   .profile-pic-container {
     display: none;
   }
-  .go-back-up-container {
-    display: none;
-  }
   .fab-container {
     display: none;
   }
@@ -501,6 +492,13 @@ textarea {
 /* hide go back up button for more screens */
 @media (max-width: 1280px) and (max-height: 1280px) {
   .go-back-up-container {
+    display: none;
+  }
+}
+
+/*hide profile pic on smaller screens*/
+@media (max-width: 1280px) and (max-height: 1280px) {
+  .profile-pic-container {
     display: none;
   }
 }
