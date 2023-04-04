@@ -157,6 +157,10 @@ strong {
   color: var(--secondary-background);
 }
 
+/* #slack {
+  margin-top:1.4em;
+} */
+
 a {
   color: var(--secondary-background);
 }
