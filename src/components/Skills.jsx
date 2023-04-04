@@ -115,7 +115,7 @@ class About extends Component {
           </ul>
 
           <ul className="col">
-            <h5 className="row">Colloboration</h5>
+            <h5 className="row">Teamwork</h5>
 
             <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/Slack_(software)">
