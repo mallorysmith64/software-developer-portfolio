@@ -33,7 +33,7 @@ class About extends Component {
 
             <u>Favorite Hobbies</u>
             <p>
-              My abosolute favorite hobbies includes the following: writing,
+              My favorite hobbies includes the following: writing,
               meditating, reading, writing, yoga, hypertropy training, writing,
               petting puppies, drinking tea, writing. Hmmm, did I mention
               writing yet? I really like to write.
