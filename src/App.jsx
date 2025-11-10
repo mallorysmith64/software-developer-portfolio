@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "./components/Nav.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.jsx";
-import Blog from "./components/Blog";
+// import Blog from "./components/Blog";
 
 // google analytics
 import ReactGA from "react-ga";
@@ -17,7 +17,7 @@ class App extends Component {
           <Nav />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/blog" element={<Blog />} />
+            {/* <Route exact path="/blog" element={<Blog />} /> */}
           </Routes>
         </Router>
       </>

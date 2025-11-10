@@ -33,10 +33,9 @@ class About extends Component {
 
             <u>Favorite Hobbies</u>
             <p>
-              My favorite hobbies includes the following: writing,
-              meditating, reading, writing, yoga, hypertropy training, writing,
+              My favorite hobbies includes the following: writing, investing, meditating, reading, writing,
               petting puppies, drinking tea, writing. Hmmm, did I mention
-              writing yet? I really like to write.
+              writing yet? I really love to write.
             </p>
           </section>
         </div>
