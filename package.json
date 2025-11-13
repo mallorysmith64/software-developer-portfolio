@@ -10,7 +10,7 @@
     "setup-deploy": "app-app --deploy && yarn deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postdeploy": "echo 'Your site was deployed to mallorysmith.me'"
+    "postdeploy": "echo 'Your site used to be deployed to mallorysmith.me. It is now deployed to marssmith.software'"
   },
   "watch": {
     "build": {
