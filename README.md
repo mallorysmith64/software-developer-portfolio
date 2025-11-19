@@ -4,7 +4,7 @@ Welcome to my portfolio! :grinning: This is where I showcase my latest projects 
 
 ## Getting Started
 
-To view my portfolio, simply go to [software-developer-portfolio](https://mallorysmith.me/)
+To view my portfolio, simply go to [software-developer-portfolio](https://bit.ly/marscannon)
 
 ## About Me
 
