@@ -14,14 +14,14 @@ class About extends Component {
             <img
               className="img-style responsive-img"
               src={ProfilePic}
-              alt="Mallory Smith's profile"
+              alt="Mars Smith's profile"
             />
           </section>
 
           <section className="about-container">
             <u>Who I Am</u>
             <p>
-              I'm Mallory A. Smith, a passionate software developer from the
+              I'm Mars Smith, a passionate software developer from the
               Tampa Bay area.
             </p>
 
