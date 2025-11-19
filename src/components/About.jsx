@@ -21,7 +21,7 @@ class About extends Component {
           <section className="about-container">
             <u>Who I Am</u>
             <p>
-              Formally, my name is Mallory A. Smith. However, I go by Mars Cannon. 
+              My name formally is Mallory A. Smith. However, I go by Mars Cannon. 
               I'm a passionate software developer from the
               Tampa Bay area. 
             </p>
