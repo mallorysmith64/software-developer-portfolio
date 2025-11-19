@@ -21,7 +21,7 @@ class About extends Component {
           <section className="about-container">
             <u>Who I Am</u>
             <p>
-              I'm Mallory A. Smith, a passionate software developer from the
+              I'm Mars Smith, a passionate software developer from the
               Tampa Bay area.
             </p>
 
