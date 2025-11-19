@@ -4,7 +4,7 @@ Welcome to my portfolio! :grinning: This is where I showcase my latest projects 
 
 ## Getting Started
 
-To view my portfolio, simply go to [software-developer-portfolio](marscannon.com)
+To view my portfolio, simply go to [software-developer-portfolio](https://marscannon.com)
 
 ## About Me
 
