@@ -1,4 +1,4 @@
-# Mallory Smith's Portfolio
+# Mars Cannon's Portfolio
 
 Welcome to my portfolio! :grinning: This is where I showcase my latest projects and skills as a web developer.
 
