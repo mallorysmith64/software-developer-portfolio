@@ -12,7 +12,7 @@ function Footer() {
 
       <footer className="page-footer-container">
         <section className="copyright">
-          <p>Copyright Mars Smith {getYear}</p>
+          <p>Copyright Mars Cannon {getYear}</p>
         </section>
         <div className="wave-container">
           <div clasName="wave"></div>

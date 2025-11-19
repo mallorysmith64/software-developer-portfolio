@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfilePic from "./images/social_images/mallory_profile_picture.jpeg";
+import ProfilePic from "./images/social_images/mars_profile_picture.jpeg";
 
 class About extends Component {
   render() {
@@ -21,8 +21,9 @@ class About extends Component {
           <section className="about-container">
             <u>Who I Am</u>
             <p>
-              I'm Mars Smith, a passionate software developer from the
-              Tampa Bay area.
+              Formally, my name is Mallory A. Smith. However, I go by Mars Cannon. 
+              I'm a passionate software developer from the
+              Tampa Bay area. 
             </p>
 
             <u>What Motivates Me</u>
