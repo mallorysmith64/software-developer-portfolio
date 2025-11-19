@@ -14,7 +14,7 @@ class About extends Component {
             <img
               className="img-style responsive-img"
               src={ProfilePic}
-              alt="Mars Smith's profile"
+              alt="Mars Cannon's profile"
             />
           </section>
 
