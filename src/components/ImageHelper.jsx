@@ -24,6 +24,7 @@ import spacex from "./images/project_images/spacex_screenshot.png";
 import tetris from "./images/project_images/tetris_screenshot.png";
 import tictactoe from "./images/project_images/tic_tac_toe_screenshot.png";
 import tv from "./images/project_images/tv_guide_screenshot.png";
+// import octodex from "./images/project_images/octodex_2025_screenshot.png";
 
 const images = {
   azure_devops,

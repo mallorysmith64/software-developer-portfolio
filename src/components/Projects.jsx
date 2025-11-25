@@ -271,6 +271,64 @@ class Projects extends Component {
             </div>
           </div>
 
+{/* octodex project */}
+          <div className="row">
+            <div className="card sticky-action">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={images.octodex}
+                  alt="minesweeper project"
+                />
+              </div>
+              <div className="card-content">
+                <div className="card-title activator">
+                  Octodex
+                  <i
+                    className="material-icons right"
+                    arial-label="more options"
+                  >
+                    more_vert
+                  </i>
+                </div>
+              </div>
+
+              <div className="card-action">
+                {/* <a
+                  href="https://6925f8db369e4c7866c5da34--react-octodex.netlify.app/"
+                  className="waves-effect waves-light btn"
+                >
+                  Live
+                </a> */}
+                <a
+                  href="https://github.com/marscannon42/react-octodex"
+                  className="waves-effect waves-light btn"
+                >
+                  Source
+                </a>
+              </div>
+
+              <div className="card-reveal">
+                <strong className="card-title grey-text text-darken-4">
+                  Octodex
+                  <i className="material-icons right" arial-label="close">
+                    close
+                  </i>
+                </strong>
+                <article className="card-description">
+                  <strong>Overview:</strong>
+                  <p>
+                    Made a fun gallery of my favorite octocats based on
+                    octodex.github.com
+                  </p>
+
+                  <strong>Technologies Used:</strong>
+                  <p>React.js, Netlify, CSS Flexbox, HTML5</p>
+                </article>
+              </div>
+            </div>
+          </div>
+
           <div className="row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
