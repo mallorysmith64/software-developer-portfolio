@@ -351,12 +351,12 @@ class Projects extends Component {
               </div>
 
               <div className="card-action">
-                <a
+                {/* <a
                   href="https://minimalist-tic-tac-toe-mallorysmith64.netlify.com/"
                   className="waves-effect waves-light btn"
                 >
                   Live
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/mallorysmith64/minimalist-tic-tac-toe"
                   className="waves-effect waves-light btn"
