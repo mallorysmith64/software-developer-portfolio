@@ -294,12 +294,12 @@ class Projects extends Component {
               </div>
 
               <div className="card-action">
-                {/* <a
-                  href="https://6925f8db369e4c7866c5da34--react-octodex.netlify.app/"
+                <a
+                  href="https://react-octodex.netlify.app/"
                   className="waves-effect waves-light btn"
                 >
                   Live
-                </a> */}
+                </a>
                 <a
                   href="https://github.com/marscannon42/react-octodex"
                   className="waves-effect waves-light btn"
