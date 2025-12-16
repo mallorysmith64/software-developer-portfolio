@@ -11,19 +11,22 @@ class About extends Component {
 
         <div className="about-me">
           <section className="profile-pic-container">
-            <img
-              className="img-style responsive-img"
-              src={ProfilePic}
-              alt="Mars Cannon's profile"
-            />
+            <iframe
+              width="600"
+              height="300"
+              src="https://www.youtube.com/embed/meTAfu3g7Pc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </section>
 
           <section className="about-container">
             <u>Who I Am</u>
             <p>
-              My name formally is Mallory A. Smith. However, I go by Mars Cannon. 
-              I'm a passionate software developer from the
-              Tampa Bay area. 
+              My name is Mallory A. Smith. I'm a passionate software developer from the Tampa Bay
+              area.
             </p>
 
             <u>What Motivates Me</u>
@@ -34,9 +37,9 @@ class About extends Component {
 
             <u>Favorite Hobbies</u>
             <p>
-              My favorite hobbies includes the following: writing, investing, meditating, reading, writing,
-              petting puppies, drinking tea, writing...Hmmm, did I mention
-              writing yet? I really love to write.
+              My favorite hobbies includes the following: writing, investing,
+              meditating, reading, writing, petting puppies, drinking tea,
+              writing...Hmmm, did I mention writing yet? I really love to write.
             </p>
           </section>
         </div>

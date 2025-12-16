@@ -14,13 +14,13 @@ class Projects extends Component {
               <div className="card-image waves-effect waves-block waves-light">
                 <img
                   className="activator"
-                  src={images.loading}
+                  src={images.catsearch}
                   alt="coming soon"
                 />
               </div>
               <div className="card-content">
                 <div className="card-title activator">
-                  Form Generator
+                  Cat Search Engine
                   <i
                     className="material-icons right"
                     arial-label="more options"
@@ -30,15 +30,40 @@ class Projects extends Component {
                 </div>
               </div>
 
+              <div className="card-action">
+                {/* <a
+                  href=""
+                  className="waves-effect waves-light btn"
+                >
+                  Live
+                </a> */}
+                <a
+                  href="https://github.com/mallorysmith64/google-search"
+                  className="waves-effect waves-light btn"
+                >
+                  Source
+                </a>
+              </div>
+
               <div className="card-action"></div>
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
-                  Form Generator
+                  Cat Search Engine
                   <i className="material-icons right" arial-label="close">
                     close
                   </i>
                 </strong>
-                <p>Coming Soon! This project is still baking in the oven.</p>
+                 <article className="card-description">
+                  <strong>Overview:</strong>
+                <p>Built a niche search engine to lookup cat information</p>
+                <strong>Features Included:</strong>
+                <p>
+                  Users can search for facts about cats and peruse recent cat
+                  memes
+                </p>
+                <strong>Technologies Used:</strong>
+                <p>React.js, Javascript, Flask, Python, Elasticsearch, CSS Flexbox, HTML5</p>
+                </article>
               </div>
             </div>
           </div>
@@ -271,7 +296,7 @@ class Projects extends Component {
             </div>
           </div>
 
-{/* octodex project */}
+          {/* octodex project */}
           <div className="row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
