@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProfilePic from "./images/social_images/mars_profile_picture.jpeg";
+import video from "./images/video/software_short.mp4";
 
 class About extends Component {
   render() {
@@ -8,10 +9,9 @@ class About extends Component {
         <header className="about-me-header" id="about">
           <h2>About Me</h2>
         </header>
-
         <div className="about-me">
           <section className="profile-pic-container">
-            <iframe
+            {/* <iframe
               width="600"
               height="300"
               src="https://www.youtube.com/embed/meTAfu3g7Pc"
@@ -19,14 +19,16 @@ class About extends Component {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
           </section>
-
+          <video width="20%" height="20%" autoPlay loop muted controls>
+            <source src={video} type="video/mp4" />
+          </video>
           <section className="about-container">
             <u>Who I Am</u>
             <p>
-              My name is Mallory A. Smith. I'm a passionate software developer from the Tampa Bay
-              area.
+              My name is Mallory A. Smith. I'm a passionate software developer
+              from the Tampa Bay area.
             </p>
 
             <u>What Motivates Me</u>
