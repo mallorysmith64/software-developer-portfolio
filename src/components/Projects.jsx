@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import images from "./ImageHelper";
 class Projects extends Component {
+  
   render() {
+    let getYear = new Date().getFullYear();
     return (
       <>
         <header className="header" id="projects">
-          <h2>Projects</h2>
+          <h2>Top Projects for {getYear}</h2>
         </header>
 
         <div className="project-container">
