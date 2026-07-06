@@ -187,12 +187,18 @@ strong {
 }
 
 .skills-container {
-  margin-top:0em;
+  margin-top: 0em;
   display: flex;
+  justify-content: center;
+  gap:6em;               /* control spacing directly instead of via flex-grow */
   background-color: var(--primary-background);
   font-weight: 600;
   color: var(--secondary-background);
   text-align: center;
+}
+
+.col {
+  flex: 0 1 auto;   /* was: flex: 1 0; — no longer force-grows to fill the row */
 }
 
 #azure-row .skill {
@@ -214,9 +220,9 @@ a {
   padding: 0.5em;
 }
 
-.col {
+/* .col {
   flex: 1 0;
-}
+} */
 
 .logo {
   width: 5em;
