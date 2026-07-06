@@ -106,12 +106,17 @@ a {
   display: flex;
   margin-top: auto;
   border-radius: 0.5em;
+  gap: 0.5em;
+  padding: 0 0.5em 0.5em 0.5em;
 }
 
-/* spacing for card buttons */
 .card-action > .waves-light {
-  margin: 0.5em;
-  width: 8em;
+  flex: 1 1 0;      
+  min-width: 0;     
+  width: auto;        
+  margin: 0;           
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .card-image {
