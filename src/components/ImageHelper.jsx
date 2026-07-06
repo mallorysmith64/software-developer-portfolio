@@ -19,12 +19,15 @@ import numpy from "./images/skill_images/numpy_logo.png";
 import pandas from "./images/skill_images/pandas_logo.png";
 
 // all project images
+// import primate_image_classifier from "./images/project_images/primate_image_classifier_screenshot.png";
+// import form_generator from "./images/project_images/form_generator_screenshot.png";
+
 import catsearch from "./images/project_images/cat_search_screenshot.png";
 import minesweeper from "./images/project_images/minesweeper_screenshot.png";
 import octodex from "./images/project_images/octodex_screenshot.png";
 import reddit from "./images/project_images/reddit_capstone_screenshot.png";
 import spacex from "./images/project_images/spacex_screenshot.png";
-import tetris from "./images/project_images/tetris_screenshot.png";
+import tetris_deluxe from "./images/project_images/tetris_screenshot.png";
 import tictactoe from "./images/project_images/tic_tac_toe_screenshot.png";
 import tv from "./images/project_images/tv_guide_screenshot.png";
 import snake_game from "./images/project_images/snake_game_screenshot.png"
@@ -51,13 +54,15 @@ const images = {
   pandas,
 
   // project images
+  // primate_image_classifier,
+  // form_generator,
   reddit,
   spacex,
   octodex,
   minesweeper,
   tv,
   tictactoe,
-  tetris,
+  tetris_deluxe,
   catsearch,
   snake_game
 };

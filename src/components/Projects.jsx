@@ -7,22 +7,23 @@ class Projects extends Component {
       <>
         <header className="header" id="projects">
           <h2>Top Projects for {getYear} </h2>
+          <li>**Multiple projects are under development**</li>
         </header>
 
         <div className="project-container">
-          {/* Row 1: Cat Search, Reddit, TV Guide */}
+          {/* Row 1: Primate Image Classifier, Form Generator, Cat Search Engine */}
           <div className="project-row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
                   className="activator"
-                  src={images.catsearch}
-                  alt="reddit project"
+                  src={images.primate_image_classifier}
+                  alt="primate image classifier project"
                 />
               </div>
               <div className="card-content">
                 <div className="card-title activator">
-                  Cat Search
+                  Primate Image Classifier
                   <i
                     className="material-icons right"
                     arial-label="more options"
@@ -32,12 +33,102 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="card-action">
-                 <a
-                  href="https://google-cat-search-engine.netlify.app/"
-                  className="waves-effect waves-light btn"
-                >
+                <a href="" className="waves-effect waves-light btn">
                   Live
                 </a>
+                <a
+                  // href=""
+                  className="waves-effect waves-light btn"
+                >
+                  Source
+                </a>
+              </div>
+              <div className="card-reveal">
+                <strong className="card-title grey-text text-darken-4">
+                  Primate Image Classifier
+                  <i className="material-icons right" arial-label="close">
+                    close
+                  </i>
+                </strong>
+                <article className="card-description">
+                  <strong>Overview:</strong>
+                  <p>
+                    You can classify images of primates using machine learning.
+                  </p>
+                  <strong>Technologies Used:</strong>
+                  <p>PyTorch, Python</p>
+                </article>
+              </div>
+            </div>
+
+            <div className="card sticky-action">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={images.form_generator}
+                  alt="form generator project"
+                />
+              </div>
+              <div className="card-content">
+                <div className="card-title activator">
+                  Form Generator
+                  <i
+                    className="material-icons right"
+                    arial-label="more options"
+                  >
+                    more_vert
+                  </i>
+                </div>
+              </div>
+              <div className="card-action">
+                <a href="" className="waves-effect waves-light btn">
+                  Live
+                </a>
+                <a
+                  // href=""
+                  className="waves-effect waves-light btn"
+                >
+                  Source
+                </a>
+              </div>
+              <div className="card-reveal">
+                <strong className="card-title grey-text text-darken-4">
+                  Form Generator
+                  <i className="material-icons right" arial-label="close">
+                    close
+                  </i>
+                </strong>
+                <article className="card-description">
+                  <strong>Overview:</strong>
+                  <p>You can generate forms dynamically using this project.</p>
+                  <strong>Technologies Used:</strong>
+                  <p>
+                    React.js, JavaScript, Flask, Python, MongoDB, CSS, HTML5
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <div className="card sticky-action">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={images.catsearch}
+                  alt="cat search engine project"
+                />
+              </div>
+              <div className="card-content">
+                <div className="card-title activator">
+                  Cat Search Engine
+                  <i
+                    className="material-icons right"
+                    arial-label="more options"
+                  >
+                    more_vert
+                  </i>
+                </div>
+              </div>
+              <div className="card-action">
                 <a
                   href="https://github.com/mallorysmith64/google-search"
                   className="waves-effect waves-light btn"
@@ -47,7 +138,7 @@ class Projects extends Component {
               </div>
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
-                  Cat Search
+                  Cat Search Engine
                   <i className="material-icons right" arial-label="close">
                     close
                   </i>
@@ -63,7 +154,10 @@ class Projects extends Component {
                 </article>
               </div>
             </div>
+          </div>
 
+          {/* Row 2: Reddit, TV Guide, Minesweeper */}
+          <div className="project-row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -84,12 +178,6 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="card-action">
-                <a
-                  href="https://reddit-capstone.herokuapp.com/"
-                  className="waves-effect waves-light btn"
-                >
-                  Live
-                </a>
                 <a
                   href="https://github.com/mallorysmith64/Reddit-Capstone"
                   className="waves-effect waves-light btn"
@@ -177,10 +265,7 @@ class Projects extends Component {
                 </article>
               </div>
             </div>
-          </div>
 
-          {/* Row 2: Minesweeper, Octodex, Snake Game */}
-          <div className="project-row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -233,7 +318,10 @@ class Projects extends Component {
                 </article>
               </div>
             </div>
+          </div>
 
+          {/* Row 3: Octodex, Snake Game */}
+          <div className="project-row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -282,6 +370,51 @@ class Projects extends Component {
                   </p>
                   <strong>Technologies Used:</strong>
                   <p>React.js, Netlify, CSS Flexbox, HTML5</p>
+                </article>
+              </div>
+            </div>
+
+            <div className="card sticky-action">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={images.tetris_deluxe}
+                  alt="tetris deluxe project"
+                />
+              </div>
+              <div className="card-content">
+                <div className="card-title activator">
+                  Tetris Deluxe
+                  <i
+                    className="material-icons right"
+                    arial-label="more options"
+                  >
+                    more_vert
+                  </i>
+                </div>
+              </div>
+              <div className="card-action">
+                <a href="TODO" className="waves-effect waves-light btn">
+                  Live
+                </a>
+                <a href="TODO" className="waves-effect waves-light btn">
+                  Source
+                </a>
+              </div>
+              <div className="card-reveal">
+                <strong className="card-title grey-text text-darken-4">
+                  Tetris Deluxe
+                  <i className="material-icons right" arial-label="close">
+                    close
+                  </i>
+                </strong>
+                <article className="card-description">
+                  <strong>Overview:</strong>
+                  <p>
+                    A modern take on the classic Tetris game with music playing
+                  </p>
+                  <strong>Technologies Used:</strong>
+                  <p>React.js, JavaScript, CSS, HTML</p>
                 </article>
               </div>
             </div>
