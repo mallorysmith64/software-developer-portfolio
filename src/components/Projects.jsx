@@ -129,6 +129,9 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="card-action">
+                 <a href="" className="waves-effect waves-light btn">
+                  Live
+                </a>
                 <a
                   href="https://github.com/mallorysmith64/google-search"
                   className="waves-effect waves-light btn"
@@ -178,6 +181,9 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="card-action">
+                 <a href="" className="waves-effect waves-light btn">
+                  Live
+                </a>
                 <a
                   href="https://github.com/mallorysmith64/Reddit-Capstone"
                   className="waves-effect waves-light btn"
