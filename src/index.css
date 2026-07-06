@@ -68,6 +68,8 @@ a {
   flex-direction: column;
   border-radius: 0.5em;
   width: 22em;
+  height: 30em;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -82,6 +84,7 @@ a {
 
 .card-action {
   display: flex;
+  margin-top: auto;
   border-radius: 0.5em;
 }
 
@@ -93,8 +96,16 @@ a {
 
 .card-image {
   max-width: 100%;
-  max-height: 16em;
+  height: 13em;
+  overflow: hidden;
   border-radius: 0.5em;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .card-content {
