@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import images from "./ImageHelper";
 
-class About extends Component {
+class Skills extends Component {
   render() {
     return (
       <>
@@ -11,19 +11,12 @@ class About extends Component {
 
         <div className="skills-container">
           <ul className="col">
-            <h5 className="row">Front-End</h5>
-
-            <h6 className="row">
-              <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">
-                <img className="logo" src={images.css} alt="css3 logo" />
-                <li className="skill">CSS</li>
-              </a>
-            </h6>
+            <h5 className="row">Frontend</h5>
 
             <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/HTML5">
                 <img className="logo" src={images.html} alt="html5 logo" />
-                <li className="skill">HTML</li>
+                <li className="skill">HTML/CSS</li>
               </a>
             </h6>
 
@@ -58,7 +51,7 @@ class About extends Component {
           </ul>
 
           <ul className="col">
-            <h5 className="row">Back-End</h5>
+            <h5 className="row">Backend</h5>
 
             <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)">
@@ -83,7 +76,7 @@ class About extends Component {
           </ul>
 
           <ul className="col">
-            <h5 className="row">Dev Tools</h5>
+            <h5 className="row">Tools</h5>
 
             <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/Docker_%28software%29">
@@ -115,7 +108,7 @@ class About extends Component {
           </ul>
 
           <ul className="col">
-            <h5 className="row">Collab Tools</h5>
+            <h5 className="row">Workflow</h5>
 
             <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/Slack_(software)">
@@ -147,10 +140,35 @@ class About extends Component {
               </a>
             </h6>
           </ul>
+
+          <ul className="col">
+            <h5 className="row">AI/ML</h5>
+
+            <h6 className="row">
+              <a href="https://en.wikipedia.org/wiki/PyTorch">
+                <img className="logo" src={images.pytorch} alt="pytorch logo" />
+                <li className="skill">PyTorch</li>
+              </a>
+            </h6>
+
+            <h6 className="row">
+              <a href="https://en.wikipedia.org/wiki/NumPy">
+                <img className="logo" src={images.numpy} alt="numpy logo" />
+                <li className="skill">NumPy</li>
+              </a>
+            </h6>
+
+            <h6 className="row">
+              <a href="https://en.wikipedia.org/wiki/Pandas_(software)">
+                <img className="logo" src={images.pandas} alt="pandas logo" />
+                <li className="skill">Pandas</li>
+              </a>
+            </h6>
+          </ul>
         </div>
       </>
     );
   }
 }
 
-export default About;
+export default Skills;
