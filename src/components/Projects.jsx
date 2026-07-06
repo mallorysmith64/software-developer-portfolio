@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import images from "./ImageHelper";
 class Projects extends Component {
-  
   render() {
     let getYear = new Date().getFullYear();
     return (
       <>
         <header className="header" id="projects">
-          <h2>Top Projects for {getYear}</h2>
+          <h2>Top Projects for {getYear} </h2>
         </header>
 
         <div className="project-container">
-          <div className="row">
+          {/* Row 1: Cat Search, Reddit, TV Guide */}
+          <div className="project-row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -22,7 +22,7 @@ class Projects extends Component {
               </div>
               <div className="card-content">
                 <div className="card-title activator">
-                  Cat Search Engine
+                  Cat Search
                   <i
                     className="material-icons right"
                     arial-label="more options"
@@ -31,8 +31,13 @@ class Projects extends Component {
                   </i>
                 </div>
               </div>
-
               <div className="card-action">
+                 <a
+                  href="https://google-cat-search-engine.netlify.app/"
+                  className="waves-effect waves-light btn"
+                >
+                  Live
+                </a>
                 <a
                   href="https://github.com/mallorysmith64/google-search"
                   className="waves-effect waves-light btn"
@@ -40,30 +45,25 @@ class Projects extends Component {
                   Source
                 </a>
               </div>
-
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
-                  Cat Search Engine
+                  Cat Search
                   <i className="material-icons right" arial-label="close">
                     close
                   </i>
                 </strong>
                 <article className="card-description">
                   <strong>Overview:</strong>
-                  <p>
-                    You can search for cat memes and cat information.
-                  </p>
-            
+                  <p>You can search for cat memes and cat information.</p>
                   <strong>Technologies Used:</strong>
                   <p>
-                    React.js, JavaScript, Flask, Python, ElasticSearch, CSS Flexbox, HTML5
+                    React.js, JavaScript, Flask, Python, ElasticSearch, CSS
+                    Flexbox, HTML5
                   </p>
                 </article>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -83,8 +83,13 @@ class Projects extends Component {
                   </i>
                 </div>
               </div>
-
               <div className="card-action">
+                <a
+                  href="https://reddit-capstone.herokuapp.com/"
+                  className="waves-effect waves-light btn"
+                >
+                  Live
+                </a>
                 <a
                   href="https://github.com/mallorysmith64/Reddit-Capstone"
                   className="waves-effect waves-light btn"
@@ -92,7 +97,6 @@ class Projects extends Component {
                   Source
                 </a>
               </div>
-
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
                   Reddit
@@ -119,62 +123,7 @@ class Projects extends Component {
                 </article>
               </div>
             </div>
-          </div>
 
-          {/* <div className="row">
-            <div className="card sticky-action">
-              <div className="card-image waves-effect waves-block waves-light">
-                <img
-                  className="activator"
-                  src={images.spacex}
-                  alt="spacex project"
-                />
-              </div>
-              <div className="card-content">
-                <div className="card-title activator">
-                  SpaceX
-                  <i
-                    className="material-icons right"
-                    arial-label="more options"
-                  >
-                    more_vert
-                  </i>
-                </div>
-              </div>
-
-              <div className="card-action">
-                <a
-                  href="https://github.com/mallorysmith64/space-x"
-                  className="waves-effect waves-light btn"
-                >
-                  Source
-                </a>
-              </div>
-
-              <div className="card-reveal">
-                <strong className="card-title grey-text text-darken-4">
-                  SpaceX
-                  <i className="material-icons right" alt="close">
-                    close
-                  </i>
-                </strong>
-                <article className="card-description">
-                  <strong>Overview:</strong>
-                  <p>
-                    Use RESTful API to show user upcoming SpaceX launch
-                    information and show the picture of the day
-                  </p>
-
-                  <strong>Technologies Used:</strong>
-                  <p>
-                    Technologies Used: Javascript, Netlify, CSS Flexbox, HTML5
-                  </p>
-                </article>
-              </div>
-            </div>
-          </div> */}
-
-          <div className="row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -194,7 +143,6 @@ class Projects extends Component {
                   </i>
                 </div>
               </div>
-
               <div className="card-action">
                 <a
                   href="https://bit.ly/tvguide-project"
@@ -209,7 +157,6 @@ class Projects extends Component {
                   Source
                 </a>
               </div>
-
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
                   TV Guide
@@ -225,7 +172,6 @@ class Projects extends Component {
                     random show at the top of the page, and details for cast
                     members.
                   </p>
-
                   <strong>Technologies Used:</strong>
                   <p>React.js, Netlify, CSS Flexbox, HTML5</p>
                 </article>
@@ -233,7 +179,8 @@ class Projects extends Component {
             </div>
           </div>
 
-          <div className="row">
+          {/* Row 2: Minesweeper, Octodex, Snake Game */}
+          <div className="project-row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -253,7 +200,6 @@ class Projects extends Component {
                   </i>
                 </div>
               </div>
-
               <div className="card-action">
                 <a
                   href="https://minesweeper-2.netlify.app/"
@@ -268,7 +214,6 @@ class Projects extends Component {
                   Source
                 </a>
               </div>
-
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
                   Minesweeper
@@ -283,22 +228,18 @@ class Projects extends Component {
                     message to show player they won or lost, and allow the user
                     to play multiple difficulty levels.
                   </p>
-
                   <strong>Technologies Used:</strong>
                   <p>React.js, Netlify, CSS Flexbox, HTML5</p>
                 </article>
               </div>
             </div>
-          </div>
 
-          {/* octodex project */}
-          <div className="row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
                   className="activator"
                   src={images.octodex}
-                  alt="minesweeper project"
+                  alt="octodex project"
                 />
               </div>
               <div className="card-content">
@@ -312,7 +253,6 @@ class Projects extends Component {
                   </i>
                 </div>
               </div>
-
               <div className="card-action">
                 <a
                   href="https://react-octodex.netlify.app/"
@@ -327,7 +267,6 @@ class Projects extends Component {
                   Source
                 </a>
               </div>
-
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
                   Octodex
@@ -341,15 +280,12 @@ class Projects extends Component {
                     Made a fun gallery of my favorite octocats based on
                     octodex.github.com
                   </p>
-
                   <strong>Technologies Used:</strong>
                   <p>React.js, Netlify, CSS Flexbox, HTML5</p>
                 </article>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="card sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -369,7 +305,6 @@ class Projects extends Component {
                   </i>
                 </div>
               </div>
-
               <div className="card-action">
                 <a
                   href="https://marssmith64.itch.io/snake-game-python"
@@ -384,7 +319,6 @@ class Projects extends Component {
                   Source
                 </a>
               </div>
-
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
                   Snake Game
@@ -395,7 +329,6 @@ class Projects extends Component {
                 <article className="card-description">
                   <strong>Overview:</strong>
                   <p>Built a classic fun game</p>
-
                   <strong>Technologies Used:</strong>
                   <p>Python, pygame</p>
                 </article>

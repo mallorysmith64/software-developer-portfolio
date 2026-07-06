@@ -40,7 +40,7 @@ a {
   color: var(--secondary-background);
   font-family: "Milonga", cursive;
   text-align: center;
-  padding: 2em 1em 0.2em 1em;
+  padding: 1em 1em 0.2em 1em;
 }
 
 .row {
@@ -63,13 +63,33 @@ a {
   background-color: var(--primary-background);
 }
 
-.card {
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.project-row .card {
+  width: 17em;
+  height: 24em;
   display: flex;
   flex-direction: column;
   border-radius: 0.5em;
-  width: 22em;
-  height: 30em;
   overflow: hidden;
+}
+
+.project-row .card-image {
+  height: 10em;
 }
 
 .card:hover {
@@ -162,6 +182,7 @@ strong {
 }
 
 .skills-container {
+  margin-top:0em;
   display: flex;
   background-color: var(--primary-background);
   font-weight: 600;
@@ -170,7 +191,7 @@ strong {
 }
 
 #azure-row .skill {
-  display:flex;
+  display: flex;
   width: 5em;
   font-size: 0.9em;
   line-height: 1.2em;
