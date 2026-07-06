@@ -22,7 +22,7 @@ class Projects extends Component {
               </div>
               <div className="card-content">
                 <div className="card-title activator">
-                  Cat Search
+                  Cat Search Engine
                   <i
                     className="material-icons right"
                     arial-label="more options"
@@ -34,7 +34,7 @@ class Projects extends Component {
 
               <div className="card-action">
                 <a
-                  href="https://github.com/mallorysmith64/Reddit-Capstone"
+                  href="https://github.com/mallorysmith64/google-search"
                   className="waves-effect waves-light btn"
                 >
                   Source
@@ -43,7 +43,7 @@ class Projects extends Component {
 
               <div className="card-reveal">
                 <strong className="card-title grey-text text-darken-4">
-                  Cat Search
+                  Cat Search Engine
                   <i className="material-icons right" arial-label="close">
                     close
                   </i>
