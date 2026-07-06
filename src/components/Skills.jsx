@@ -119,7 +119,12 @@ class About extends Component {
 
             <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/Slack_(software)">
-                <img className="logo" id="slack" src={images.slack} alt="slack logo" />
+                <img
+                  className="logo"
+                  id="slack"
+                  src={images.slack}
+                  alt="slack logo"
+                />
                 <li className="skill">Slack</li>
               </a>
             </h6>
@@ -128,6 +133,17 @@ class About extends Component {
               <a href="https://en.wikipedia.org/wiki/Trello">
                 <img className="logo" src={images.trello} alt="trello logo" />
                 <li className="skill">Trello</li>
+              </a>
+            </h6>
+
+            <h6 className="row" id="azure-row">
+              <a href="https://en.wikipedia.org/wiki/Azure_DevOps_Server">
+                <img
+                  className="logo"
+                  src={images.azure_devops}
+                  alt="azure devops logo"
+                />
+                <li className="skill">Azure DevOps</li>
               </a>
             </h6>
           </ul>

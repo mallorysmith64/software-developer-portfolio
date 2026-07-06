@@ -1,5 +1,5 @@
 // all skill images
-import azure_devops from "./images/skill_images/azure_devops_logo.png";
+import azure_devops from "./images/skill_images/azure_devops_logo.jpeg";
 import css from "./images/skill_images/css_logo.png";
 import docker from "./images/skill_images/docker_logo.png";
 import flask from "./images/skill_images/flask_logo.png";

@@ -168,9 +168,15 @@ strong {
   color: var(--secondary-background);
 }
 
-/* #slack {
-  margin-top:1.4em;
-} */
+#azure-row .skill {
+  display: block;
+  width: 5em;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  white-space: normal;
+  margin: 0 auto;
+}
 
 a {
   color: var(--secondary-background);
@@ -197,13 +203,8 @@ a {
   padding: 0.5em;
 }
 
-#az {
-  padding: 0.5em;
-}
-
 .about-me {
   display: flex;
-  /* list-style: none; */
   background-color: var(--accent);
   padding: 2em;
   font-size: 1.25em;
