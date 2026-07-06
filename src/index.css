@@ -166,16 +166,16 @@ strong {
   background-color: var(--primary-background);
   font-weight: 600;
   color: var(--secondary-background);
+  text-align: center;
 }
 
 #azure-row .skill {
-  display: block;
+  display:flex;
   width: 5em;
-  text-align: center;
   font-size: 0.9em;
   line-height: 1.2em;
   white-space: normal;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 a {
@@ -197,6 +197,16 @@ a {
   height: 5em;
   /* add background color for transparent logos */
   background-color: rgb(32, 30, 30);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.logo:hover,
+.logo:focus {
+  transform: scale(1.15);
+  box-shadow: 0 0.3em 0.6em rgba(0, 0, 0, 0.35);
+  z-index: 2;
+  position: relative;
 }
 
 .skill {
