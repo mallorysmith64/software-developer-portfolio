@@ -4,7 +4,7 @@ Welcome to my portfolio! :grinning: This is where I showcase my latest projects 
 
 ## Getting Started
 
-To view my portfolio, simply go to [software-developer-portfolio](https://marssmith42.netlify.app/)
+To view my portfolio, simply go to [software-developer-portfolio](https://bit.ly/mallorysmith-software)
 
 ## About Me
 
