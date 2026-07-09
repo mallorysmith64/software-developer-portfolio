@@ -239,7 +239,7 @@ class Projects extends Component {
               </div>
               <div className="card-action">
                 <a
-                  href="https://bit.ly/tvguide-project"
+                  href="https://tvguide-project.netlify.app/"
                   className="waves-effect waves-light btn"
                 >
                   Live
