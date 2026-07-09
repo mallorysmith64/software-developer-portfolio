@@ -1,10 +1,10 @@
 # Mars Cannon's Portfolio
 
-Welcome to my portfolio! :grinning: This is where I showcase my latest projects and skills as a web developer.
+Welcome to my portfolio! :grinning: This is where I showcase my latest projects and skills as a software developer.
 
 ## Getting Started
 
-To view my portfolio, simply go to [software-developer-portfolio](https://marscannon.com)
+To view my portfolio, simply go to [software-developer-portfolio](https://mallorysmith-software.netlify.app/)
 
 ## About Me
 
