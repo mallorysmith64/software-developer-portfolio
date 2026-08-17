@@ -293,7 +293,7 @@ class Projects extends Component {
               </div>
               <div className="card-action">
                 <a
-                  href="https://minesweeper-2.netlify.app/"
+                  href="https://minesweeper-2-frontend.up.railway.app/"
                   className="waves-effect waves-light btn"
                 >
                   Live
