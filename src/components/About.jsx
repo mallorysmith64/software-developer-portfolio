@@ -11,19 +11,8 @@ class About extends Component {
         </header>
         <div className="about-me">
           <section className="profile-pic-container">
-            {/* <iframe
-              width="600"
-              height="300"
-              src="https://www.youtube.com/embed/meTAfu3g7Pc"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-              allowFullScreen
-            ></iframe> */}
           </section>
-          <video width="20%" height="20%" autoPlay loop muted controls>
-            <source src={video} type="video/mp4" />
-          </video>
+        
           <section className="about-container">
             <u>Who I Am</u>
             <p>

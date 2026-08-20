@@ -248,10 +248,11 @@ a {
 .about-me {
   display: flex;
   background-color: var(--accent);
-  padding: 2em;
+  padding-bottom: 3em;
   font-size: 1.25em;
   color: var(--secondary-background);
   line-height: 1.25em;
+  padding-left:5em;
 }
 
 .about-container {
@@ -428,7 +429,7 @@ textarea {
   height: 100%;
   display: block;
   object-fit: contain;
-  padding:2em;
+  padding-top:2em;
 }
 
 @keyframes animate {
