@@ -10,9 +10,8 @@ class About extends Component {
           <h2>About Me</h2>
         </header>
         <div className="about-me">
-          <section className="profile-pic-container">
-          </section>
-        
+          <section className="profile-pic-container"></section>
+
           <section className="about-container">
             <u>Who I Am</u>
             <p>
@@ -29,8 +28,9 @@ class About extends Component {
             <u>Favorite Hobbies</u>
             <p>
               My favorite hobbies includes the following: writing, investing,
-              meditating, reading, writing, petting puppies, drinking tea,
-              writing...Hmmm, did I mention writing yet? I really love to write.
+              meditating, reading, writing, petting puppies,
+              <br />
+              drinking tea, writing...Hmmm, did I mention writing yet? I really love to write.
             </p>
           </section>
         </div>
