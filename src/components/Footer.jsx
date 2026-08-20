@@ -15,7 +15,7 @@ function Footer() {
           <p>Copyright Mallory A. Smith {getYear}</p>
         </section>
         <div className="wave-container">
-          <div clasName="wave"></div>
+          <div className="wave"></div>
           <div className="wave"></div>
           <div className="wave"></div>
         </div>
