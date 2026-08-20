@@ -6,7 +6,7 @@ class Skills extends Component {
     return (
       <>
         <header className="header">
-          <h2 id="skills">Skills and Interests</h2>
+          <h2 id="skills">Skills</h2>
         </header>
 
         <div className="skills-container">

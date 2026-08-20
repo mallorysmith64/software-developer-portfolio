@@ -22,6 +22,7 @@ import pandas from "./images/skill_images/pandas_logo.png";
 // import primate_image_classifier from "./images/project_images/primate_image_classifier_screenshot.png";
 // import form_generator from "./images/project_images/form_generator_screenshot.png";
 
+import github_carousel from "./images/carousel_images/github_photo.png";
 import catsearch from "./images/project_images/cat_search_screenshot.png";
 import minesweeper from "./images/project_images/minesweeper_screenshot.png";
 import octodex from "./images/project_images/octodex_screenshot.png";
@@ -53,18 +54,16 @@ const images = {
   numpy,
   pandas,
 
-  // project images
-  // primate_image_classifier,
-  // form_generator,
-  reddit,
-  spacex,
-  octodex,
-  minesweeper,
-  tv,
-  tictactoe,
-  tetris_deluxe,
-  catsearch,
-  snake_game
+  github_carousel,
+  // reddit,
+  // spacex,
+  // octodex,
+  // minesweeper,
+  // tv,
+  // tictactoe,
+  // tetris_deluxe,
+  // catsearch,
+  // snake_game
 };
 
 export default images;
