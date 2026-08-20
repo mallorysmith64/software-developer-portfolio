@@ -8,17 +8,6 @@ function Nav() {
     <>
       <nav className="navbar">
         <ul className="right">
-        {/* <li>
-            <a className="nav-item js-scroll-trigger" href="/" onClick={() => navigate("/")}>
-              Home
-            </a>
-          </li> */}
-
-          <li>
-            <a className="nav-item js-scroll-trigger" href="#projects" onClick={() => navigate("/")}>
-              Projects
-            </a>
-          </li>
 
           <li>
             <a className="nav-item js-scroll-trigger" href="#skills" onClick={() => navigate("/")}>
@@ -38,11 +27,6 @@ function Nav() {
             </a>
           </li>
 
-          {/* <li>
-            <a className="nav-item js-scroll-trigger" href="blog" onClick={() => navigate("blog")}>
-              Blog
-            </a>
-          </li> */}
         </ul>
       </nav>
     </>
