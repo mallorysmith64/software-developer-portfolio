@@ -10,6 +10,8 @@ import javascript from "./images/skill_images/javascript_logo.png";
 import mongo from "./images/skill_images/mongodb_logo.png";
 import python from "./images/skill_images/python_logo.png";
 import react from "./images/skill_images/react_logo.png";
+import vue from "./images/skill_images/vue_logo.png";
+
 import slack from "./images/skill_images/slack_logo.png";
 import trello from "./images/skill_images/trello_logo.png";
 import typescript from "./images/skill_images/typescript_logo.png";
@@ -45,6 +47,7 @@ const images = {
   mongo,
   python,
   react,
+  vue,
   slack,
   trello,
   typescript,

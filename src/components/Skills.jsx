@@ -39,6 +39,13 @@ class Skills extends Component {
             </h6>
 
             <h6 className="row">
+              <a href="https://en.wikipedia.org/wiki/Vue.js">
+                <img className="logo" src={images.vue} alt="vue.js logo" />
+                <li className="skill">Vue.js</li>
+              </a>
+            </h6>
+
+            <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/TypeScript">
                 <img
                   className="logo"
@@ -54,6 +61,13 @@ class Skills extends Component {
             <h5 className="row">Backend</h5>
 
             <h6 className="row">
+              <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">
+                <img className="logo" src={images.python} alt="python logo" />
+                <li className="skill">Python</li>
+              </a>
+            </h6>
+
+            <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)">
                 <img className="logo" src={images.flask} alt="flask logo" />
                 <li className="skill">Flask</li>
@@ -64,13 +78,6 @@ class Skills extends Component {
               <a href="https://en.wikipedia.org/wiki/MongoDB">
                 <img className="logo" src={images.mongo} alt="mongodb logo" />
                 <li className="skill">MongoDB</li>
-              </a>
-            </h6>
-
-            <h6 className="row">
-              <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">
-                <img className="logo" src={images.python} alt="python logo" />
-                <li className="skill">Python</li>
               </a>
             </h6>
           </ul>
