@@ -149,9 +149,16 @@ class Skills extends Component {
           </ul>
 
           <ul className="col">
-            <h5 className="row">AI/ML</h5>
+            <h5 className="row">ML</h5>
 
-            <h6 className="row">
+             <h6 className="row">
+              <a href="https://en.wikipedia.org/wiki/Claude_(AI)">
+                <img className="logo" src={images.claude} alt="claude logo" />
+                <li className="skill">Claude</li>
+              </a>
+            </h6>
+
+            {/* <h6 className="row">
               <a href="https://en.wikipedia.org/wiki/PyTorch">
                 <img className="logo" src={images.pytorch} alt="pytorch logo" />
                 <li className="skill">PyTorch</li>
@@ -170,7 +177,7 @@ class Skills extends Component {
                 <img className="logo" src={images.pandas} alt="pandas logo" />
                 <li className="skill">Pandas</li>
               </a>
-            </h6>
+            </h6> */}
           </ul>
         </div>
       </>

@@ -11,6 +11,7 @@ import mongo from "./images/skill_images/mongodb_logo.png";
 import python from "./images/skill_images/python_logo.png";
 import react from "./images/skill_images/react_logo.png";
 import vue from "./images/skill_images/vue_logo.png";
+import claude from "./images/skill_images/claude_logo.png";
 
 import slack from "./images/skill_images/slack_logo.png";
 import trello from "./images/skill_images/trello_logo.png";
@@ -56,6 +57,7 @@ const images = {
   pytorch,
   numpy,
   pandas,
+  claude,
 
   github_carousel,
   // reddit,
